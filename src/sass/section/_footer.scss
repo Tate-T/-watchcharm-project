@@ -1,0 +1,128 @@
+.footer {
+
+    padding: 40px 40px 28px 40px;
+    border-radius: 30px;
+    background: #0C0C0C;
+    
+
+
+    &__headline {
+        color: #FBFBFB;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.4px;
+    }
+
+
+
+    &__title {
+        color: #FBFBFB;
+        text-align: center;
+        
+        /* Desktop_tablet/H4 */
+        font-family: Gilroy;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 114.286% */
+        letter-spacing: -0.56px;
+        width: 523px;
+    }
+
+
+    &__button {
+        border-radius: 16px;
+        border: 1px solid rgba(251, 251, 251, 0.20);
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+
+
+    &__titles-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__svg-box {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__svg {
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+        border-radius: 10px;
+border: 1px solid rgba(251, 251, 251, 0.10);
+    }
+
+    &__svg-center {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-right: 469px;
+    }
+
+    &__nav-text {
+        color: #FBFBFB;
+text-align: center;
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+    }
+
+    &__location-text {
+        color: #FBFBFB;
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+width: 162px;
+    }
+
+
+    &__info-text {
+        color: rgba(251, 251, 251, 0.50);
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+opacity: 0.9;
+margin-right: 671px;
+    }
+
+    &__small-ul {
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+    }
+
+    &__small-text {
+        color: rgba(251, 251, 251, 0.50);
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+    }
+}
