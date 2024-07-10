@@ -37,30 +37,33 @@
         border-radius: 16px;
         border: 1px solid rgba(251, 251, 251, 0.20);
         color: #FBFBFB;
-        text-align: center;
+        background-color: transparent;
         font-family: Gilroy;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: 18px;
         text-transform: uppercase;
+        padding: 15px;
+        margin-left: 147px;
     }
 
 
     &__titles-box {
         display: flex;
-        justify-content: center;
     }
 
     &__svg-box {
         display: flex;
         align-items: flex-start;
+        margin-right: 178px;
     }
 
     &__svg {
         width: 20px;
         height: 20px;
         padding: 8px;
+        fill: #FBFBFB;
         border-radius: 10px;
 border: 1px solid rgba(251, 251, 251, 0.10);
     }
