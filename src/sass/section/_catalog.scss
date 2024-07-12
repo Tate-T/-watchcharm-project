@@ -1,0 +1,36 @@
+.text{
+    color: rgba(12, 12, 12, 0.50);
+
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+}
+
+.title{
+    color: #0C0C0C;
+
+/* Desktop_tablet/H2 */
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 91.667% */
+letter-spacing: -0.96px;
+}
+
+.info-text{
+    overflow: hidden;
+color: #0C0C0C;
+
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 100% */
+letter-spacing: -0.4px;
+}
