@@ -1,3 +1,6 @@
+@import "./base/reset";
+@import "./utils/vars";
+@import "./base/common";
 @import "./section/header";
 @import "./section/hero";
 @import "./section/catalog";
@@ -7,7 +10,3 @@
 @import "./section/about-us";
 @import "./section/contact-us";
 @import "./section/footer";
-@import "./base/common";
-@import "./base/reset";
-@import "./utils/vars";
-
