@@ -13,14 +13,13 @@
     
     <title>Collection watches</title>
     <script type="module" crossorigin src="/watchcharm-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/watchcharm-project/assets/index-958efa05.css">
+    <link rel="stylesheet" href="/watchcharm-project/assets/index-5ff385f4.css">
   </head>
 
 
   <body>
     <header>
     <h1 class="header-title">watchcharm</h1>
-
     <ul class="header-list">
         <li class="header-item">
             <p class="header-text">Home</p>
@@ -43,22 +42,30 @@
     </ul>
 </header>
     <section class="hero">
-    <h2 class="hero-title">Welcome to our collection of premium watches</h2>
-    <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and lifestyle.
-        From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
-    <ul class="hero-list">
-        <li class="hero-item">
-            <img class="hero-people" src="" alt="">
-        </li>
-        <li class="hero-item">
-            <img class="hero-people" src="" alt="">
-        </li>
-        <li class="hero-item">
-            <img class="hero-people" src="" alt="">
-        </li>
-    </ul>
-    <h4 class="scrol-down">Scroll down</h4>
-    <img class="hero-img" src="" alt="">
+    <div class="container hero-container">
+        <div class="hero__wrapper1">
+            <h2 class="hero__title">Welcome to our <span class="hero__subtitle">collection</span> of premium watches
+            </h2>
+            <p class="hero__text">Our watches are not just timepieces, but also an expression of your personality and
+                lifestyle.
+                From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
+        </div>
+        <div class="hero__wrapper2">
+            <ul class="hero__list">
+                <li class="hero__item">
+                    <img class="hero__people" src="../img/hero-people-desktop@1x.webp" alt="girl">
+                </li>
+                <li class="hero__item">
+                    <img class="hero__people" src="../img/hero-people2-desktop@1x.webp" alt="boy">
+                </li>
+                <li class="hero__item">
+                    <img class="hero__people" src="../img/hero-people3-desktop@1x.webp" alt="girl">
+                </li>
+            </ul>
+            <a href="#scroll" class="scrol-down">Scroll down</a>
+        </div>
+        <img class="hero__img" src="../img/hero-watch-desktop@1x (1).webp" alt="watch">
+    </div>
 </section>
     <section class="about">
     <div class="container about__container">
@@ -213,30 +220,30 @@
     </div>
     </section>
     
-    <footer class="footer">
+    <!-- <footer class="footer" id="scroll">
     <div class="container">
         <div class="footer__big-box">
             <div class="footer__titles-box">
 
 
-                    <h2 class="footer__headline">watchcharm</h2>
-                    <div class="footer__svg-box">
-                        <svg class="footer__svg">
-                            <use href="../icons.svg#icon-facebook-svg"></use>
-                        </svg>
-                        <svg class="footer__svg footer__svg-center">
-                            <use href="../icons.svg#icon-instagram-svg"></use>
-                        </svg>
-                        <svg class="footer__svg">
-                            <use href="../icons.svg#icon-youtube-svg"></use>
-                        </svg>
-                    </div>
+                <h2 class="footer__headline">watchcharm</h2>
+                <div class="footer__svg-box">
+                    <svg class="footer__svg">
+                        <use href="../icons.svg#icon-facebook-svg"></use>
+                    </svg>
+                    <svg class="footer__svg footer__svg-center">
+                        <use href="../icons.svg#icon-instagram-svg"></use>
+                    </svg>
+                    <svg class="footer__svg">
+                        <use href="../icons.svg#icon-youtube-svg"></use>
+                    </svg>
+                </div>
 
 
-                    <h2 class="footer__title">Have the time of your life with our watches: where high-class
-                        craftsmanship meets impeccable design</h2>
+                <h2 class="footer__title">Have the time of your life with our watches: where high-class
+                    craftsmanship meets impeccable design</h2>
 
-                    <button class="footer__button">+380 (68) 443-94-26</button>
+                <button class="footer__button">+380 (68) 443-94-26</button>
 
             </div>
             <div class="footer__nav-box">
@@ -279,7 +286,32 @@
 
         </div>
     </div>
-</footer>
+</footer> -->
+
+<div class="mobile-menu">
+    <button class="mobile-close"></button>
+
+    <ul class="mobile-list">
+        <li class="mobile-item">
+            <p class="mobile-text">Home</p>
+        </li>
+        <li class="mobile-item">
+            <p class="mobile-text">About Us</p>
+        </li>
+        <li class="mobile-item">
+            <p class="mobile-text">Catalog</p>
+        </li>
+        <li class="mobile-item">
+            <p class="mobile-text">Sale</p>
+        </li>
+        <li class="mobile-item">
+            <p class="mobile-text">Reviews</p>
+        </li>
+        <li class="mobile-item">
+            <p class="mobile-text">Contact Us</p>
+        </li>
+    </ul>
+</div>
 
     
   </body>
