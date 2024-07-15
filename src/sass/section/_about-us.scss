@@ -1,0 +1,71 @@
+.about {
+    &__item {
+        color: #0C0C0C;
+
+        /* Desktop_tablet/H2 */
+        font-family: Gilroy;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        /* 91.667% */
+        letter-spacing: -0.96px;
+        padding-top: 80px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 100px;
+    }
+
+    &__text {
+        color: rgba(12, 12, 12, 0.70);
+
+        /* Desktop_tablet/Main text */
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 125% */
+        letter-spacing: -0.32px;
+        width: 460px;
+        flex-shrink: 0;
+    }
+
+    &__button {
+        border-radius: 16px;
+        background: #3350E9;
+        width: 160px;
+        height: 48px;
+        flex-shrink: 0;
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        /* 128.571% */
+        margin-top: 40px;
+    }
+
+    &__title1 {
+        width: 580px;
+        height: 532px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #F3F3F3;
+        padding-left: 60px;
+
+    }
+
+    &__title2 {
+        width: 530px;
+        height: 532px;
+        border-radius: 50px;
+        background: linear-gradient(0deg, rgba(12, 12, 12, 0.20) 0%, rgba(12, 12, 12, 0.20) 100%), url(<path-to-image>) lightgray -311.731px -6.817px / 213.296% 114.369% no-repeat;
+    }
+}
