@@ -1,0 +1,81 @@
+.contact {
+  padding-bottom: 100px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-tittle {
+  color: $tittle-color;
+  font-family: Gilroy;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
+  text-align: start;
+}
+
+.contact-text {
+  color: $nomain-color;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  width: 430px;
+  margin-bottom: 32px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border-radius: 50px;
+  background-color: $bacground-photo-color;
+  padding: 50px 60px;
+}
+
+.contact-input {
+  padding: 16px 0 16px 18px;
+  width: 410px;
+  border-radius: 12px;
+  border: 1px solid $fatty-color;
+  background: none;
+}
+
+.contact-input-com {
+  padding: 16px 0px 54px 16px;
+  width: 410px;
+}
+
+.contact-input::placeholder {
+  color: $tittle-color;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contact-time {
+  width: 530px;
+  height: 556px;
+}
+
+.contact-button {
+  color: $accent-color;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 16px;
+  background: $card-color;
+  padding: 17px 63px;
+  display: flex;
+  justify-content: start;
+  margin-top: 14px;
+}

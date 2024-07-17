@@ -1,0 +1,142 @@
+.sale {
+  padding-bottom: 100px;
+}
+
+.sale-tittle {
+  color: $tittle-color;
+  font-family: Gilroy;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
+  margin-left: 65px;
+}
+
+.sale-container {
+  display: flex;
+}
+
+.sale-list-card {
+  border-radius: 50px;
+  background: $card-color;
+  width: 530px;
+}
+
+.sale-clock {
+  width: 96px;
+  height: 100px;
+  padding: 16px 18px;
+}
+
+.sale-item {
+  border-radius: 20px;
+  border: 1px solid $border-photo-color;
+  background: $bacground-photo-color;
+  width: 132px;
+  height: 132px;
+}
+
+.sale-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.wach-container {
+  border-radius: 50px;
+  border: 1px solid $border-photo-color;
+  background: $bacground-photo-color;
+  margin-right: 40px;
+  padding: 80px 50px;
+}
+
+.sale-watch {
+  width: 328px;
+  height: 398px;
+}
+
+.sale-list-card {
+  padding: 60px;
+}
+
+.sale-card-tittle {
+  color: $accent-color;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.64px;
+  width: 389px;
+  margin-bottom: 10px;
+}
+
+.sale-tage {
+  color: $not-important-color;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 20px;
+}
+
+.sale-card-container {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sale-prise-container {
+  border-radius: 8px;
+  background: rgba(251, 251, 251, 0.1);
+  padding: 10px 15px;
+}
+
+.sale-price {
+  color: $accent-color;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.4px;
+}
+
+.sale-cross {
+  color: $not-important-color;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.24px;
+  text-decoration-line: strikethrough;
+}
+
+.sale-information {
+  color: $information-color;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  margin-bottom: 40px;
+}
+
+.sale-people-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.sale-people {
+  color: $accent-color;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid $border-color;
+}
