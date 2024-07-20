@@ -21,7 +21,7 @@ font-weight: 600;
 line-height: 44px;
 letter-spacing: -0.96px;
 }
-.contact{
+.contact2{
     color: #FBFBFB;
 
 text-align: center;
@@ -33,18 +33,18 @@ line-height: 18px; /* 128.571% */
 border-radius: 30px;
 border-radius: 16px;
 border: 1px solid rgba(251, 251, 251, 0.15);
-height: 30px;
+
 background-color: transparent;
 margin-left: 140px;
-padding-top: 14px;
-padding-left: 25px;
-padding-right: 25px;
-padding-bottom: 24px;
+width: 160px;
+height: 48px;
+flex-shrink: 0;
+
 }
 
 .pos{
     display: flex;
-    background: url(../../img/advertismant/bacraun\ .png) rgb(12, 12, 12) -20px -114px / 111.304% 241.611% no-repeat;
+    background: url(../img/advertismant/bacraun.png) rgb(12, 12, 12) -20px -114px / 111.304% 241.611% no-repeat;
     border-radius: 30px;
     padding: 83px;
 
