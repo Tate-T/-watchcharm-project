@@ -1,4 +1,5 @@
 .text-wite{
+    width: 690px;
     color: white;
 
 /* Desktop_tablet/H2 */
@@ -55,3 +56,50 @@ flex-shrink: 0;
  
 
 }
+
+
+@media screen and ( max-width:1200px){
+
+    .text-wite{
+        width: 576px;
+height: 185px;
+flex-shrink: 0;
+    }
+
+    .pos{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact2{
+margin-left: -0;
+margin-top: 22px;
+    }
+}
+
+@media screen and ( max-width:719px){
+
+    .text-wite{
+        width: 279px;
+        height: 167px;
+        flex-shrink: 0;
+        font-size: 30px;
+    }
+
+    .text-gray{
+        font-size: 30px;
+    }
+
+    .pos{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact2{
+margin-left: -0;
+margin-top: 72px;
+    }
+}
+
