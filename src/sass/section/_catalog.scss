@@ -60,6 +60,18 @@ padding: 35px;
 
 }
 
+
+.bac1{
+    border-radius: 30px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    
+    background: #F3F3F3;
+    width: 368px;
+    height: 394px;
+    flex-shrink: 0;
+    display: block;
+}
+
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +82,7 @@ padding: 35px;
 
 
 .waches{
-   
+
 }
 
 .show{
@@ -96,33 +108,12 @@ display: none;
 @media screen and ( max-width:1200px){
 
     .cards{
-       
-       display: flex;
-       flex-wrap: wrap;
-
-    
-       
-        
+<<<<<
        
     }
 
     .bac{
-    
-        padding: 20px;
-       
-       
-    }
-
-    .bac1{
-       
-       
-       
-      padding: 20px;
-    }
-    
-    
-}
-
+<<
 
 @media screen and ( max-width:719px){
 
@@ -132,17 +123,4 @@ display: none;
     margin-bottom: 60px;
    }
 
-   .bac{
-    padding: 35px;
-   
-   }
-
-   .bac1{
-    display: none;
-
-   }
-
-   .log{
-    font-size: 34px;
-   }
-}
+<<<<<
