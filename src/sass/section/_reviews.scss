@@ -1,51 +1,19 @@
-.rewiews{
+.rewiews {
+    &__item {
+        color: #0C0C0C;
 
-&__item {
-    color: #0C0C0C;
-
-    /* Desktop_tablet/H2 */
-    /* Mobile/H2 */
-    font-family: Gilroy;
-    font-size: 48px;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-    /* 91.667% */
-    letter-spacing: -0.96px;
-    padding-left: 65px;
-    line-height: 32px;
-    /* 100% */
-    letter-spacing: -0.64px;
-    padding-left: 20px;
-
-    @media screen and (min-width: 720px) {
+        /* Desktop_tablet/H2 */
+        font-family: Gilroy;
         font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
         line-height: 44px;
-        padding-left: 32px;
-    }
-
-    @media screen and (min-width: 1174px) {
+        /* 91.667% */
+        letter-spacing: -0.96px;
         padding-left: 65px;
     }
-}
 
-&__subitem {
-    color: #0C0C0C;
-    text-align: center;
-    font-family: Gilroy;
-    font-size: 18px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 110%;
-    /* 19.8px */
-    letter-spacing: -0.36px;
-    line-height: 20px;
-    /* 125% */
-    letter-spacing: -0.32px;
-
-    @media screen and (min-width: 720px) {
+    &__subitem {
         color: #0C0C0C;
         text-align: center;
         font-family: Gilroy;
@@ -57,34 +25,7 @@
         letter-spacing: -0.36px;
     }
 
-    @media screen and (min-width: 1174px) {
-        color: #0C0C0C;
-        text-align: center;
-        font-family: Gilroy;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 110%;
-        /* 19.8px */
-        letter-spacing: -0.36px;
-
-    }
-}
-
-&__text {
-    color: rgba(12, 12, 12, 0.40);
-    text-align: center;
-    
-    /* Mobile/Main text */
-    font-family: Gilroy;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
-    width: 263px;
-
-    @media screen and (min-width: 720px) {
+    &__text {
         color: rgba(12, 12, 12, 0.40);
         text-align: center;
 
@@ -96,65 +37,28 @@
         line-height: 20px;
         /* 125% */
         letter-spacing: -0.32px;
-        width: 272px;
-    }
-
-    @media screen and (min-width: 1174px) {
-        color: rgba(12, 12, 12, 0.40);
-        text-align: center;
-        
-        /* Desktop_tablet/Main text */
-        font-family: Gilroy;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 20px; /* 125% */
-        letter-spacing: -0.32px;
         width: 298px;
     }
-}
 
-&__cards {
-    display: flex;
-    justify-content: center;
-    
-
-    @media screen and (min-width: 720px) {
+    &__cards {
         display: flex;
         justify-content: center;
-        gap: 16px;
-    }
-
-    @media screen and (min-width: 1174px) {
-    
         gap: 20px;
     }
-}
-
-&__card {
-    display: flex;
-    padding: 32px 36px;
-
-    gap: 8px;
-    border-radius: 30px;
-    background: #F3F3F3;
-
-    @media screen and (min-width: 720px) {}
-
-    @media screen and (min-width: 1174px) {}
-}
-
-&__imag {
-    width: 56px;
-    height: 56px;
-    border-radius: 56px;
-    border: 2px solid #FBFBFB;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #F3F3F3;
-
-
-    @media screen and (min-width: 720px) {}
-
-    @media screen and (min-width: 1174px) {}
-
-}
+    &__card {
+        display: flex;
+        padding: 32px 36px;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        border-radius: 30px;
+        background: #F3F3F3;
+    }
+    &__imag {
+        width: 56px;
+        height: 56px;
+        border-radius: 56px;
+        border: 2px solid #FBFBFB;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat, #F3F3F3;
+    }
 }
