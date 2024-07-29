@@ -50,27 +50,17 @@ padding: 35px;
 }
 
 .bac1{
-    border-radius: 30px;
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    
-    background: #F3F3F3;
    
-    display: block;
-    padding: 35px;
-
-}
-
-
-.bac1{
     border-radius: 30px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     
     background: #F3F3F3;
-    width: 368px;
-    height: 394px;
-    flex-shrink: 0;
-    display: block;
+    
+    
+    padding: 35px;
 }
+
+
 
 .cards{
     display: flex;
@@ -80,6 +70,17 @@ padding: 35px;
 
 }
 
+.ddd{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.ddd1{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
 
 .waches{
 
@@ -107,20 +108,51 @@ display: none;
 
 @media screen and ( max-width:1200px){
 
-    .cards{
-<<<<<
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+   .ddd1{
+    display: flex;
+        flex-direction: column;
+       gap: 32px;
+   }
+    
+    .ddd{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      
+      
        
     }
 
     .bac{
-<<
+padding: 24px;
+    }
+    .bac1{
+padding: 24px;
+    }
+
+}
+
 
 @media screen and ( max-width:719px){
+
+
 
    .show{
     display: block;
     margin-top: 50px;
     margin-bottom: 60px;
+
    }
 
-<<<<<
+   .bac1{
+    display: none;
+   }
+   
+
+}
