@@ -14,32 +14,54 @@
     
     <title>Collection watches</title>
     <script type="module" crossorigin src="/watchcharm-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/watchcharm-project/assets/index-caad78db.css">
+    <link rel="stylesheet" href="/watchcharm-project/assets/index-a39c0772.css">
   </head>
 
   <body>
-    <header>
-    <h1 class="header-title">watchcharm</h1>
-    <ul class="header-list">
-        <li class="header-item">
-            <p class="header-text">Home</p>
-        </li>
-        <li class="header-item">
-            <p class="header-text">About Us</p>
-        </li>
-        <li class="header-item">
-            <p class="header-text">Catalog</p>
-        </li>
-        <li class="header-item">
-            <p class="header-text">Sale</p>
-        </li>
-        <li class="header-item">
-            <p class="header-text">Reviews</p>
-        </li>
-        <li class="header-item">
-            <p class="header-text">Contact Us</p>
-        </li>
-    </ul>
+    <header class="header">
+    <div class="container header-container">
+        <h1 class="header__title">watchcharm</h1>
+        <ul class="header__list">
+            <li class="header__item">
+                <p class="header__text">Home</p>
+            </li>
+            <li class="header__item">
+                <p class="header__text">About Us</p>
+            </li>
+            <li class="header__item">
+                <p class="header__text">Catalog</p>
+            </li>
+            <li class="header__item">
+                <p class="header__text">Sale</p>
+            </li>
+            <li class="header__item">
+                <p class="header__text">Reviews</p>
+            </li>
+            <li class="header__item">
+                <p class="header__text">Contact Us</p>
+            </li>
+        </ul>
+        <ul class="header__icons">
+            <li class="header__icon">
+                <svg class="header__svg">
+                    <use href="../icons.svg#icon-youtube-svg"></use>
+                </svg>
+            </li>
+            <li class="header__icon">
+                <svg class="header__svg">
+                    <use href="../icons.svg#icon-instagram-svg"></use>
+                </svg>
+            </li>
+            <li class="header__icon">
+                <svg class="header__svg">
+                    <use href="../icons.svg#icon-facebook-svg"></use>
+                </svg>
+            </li>
+        </ul>
+        <svg class="burger">
+            <use href="../icons.svg#icon-burger"></use>
+        </svg>
+    </div>
 </header>
     <section class="hero">
     <div class="container hero-container">
@@ -88,9 +110,11 @@
             <source media="(min-width: 1174px)"
                 srcset="/watchcharm-project/assets/hero-watch-desktop@1x-b4d226cc.webp 1x, /watchcharm-project/assets/hero-watch-desktop@2x-2d4d1f67.webp 2x">
             <source media="(min-width: 720px)"
-                srcset="/watchcharm-project/assets/hero-watch-desktop@1x-b4d226cc.webp 1x, /watchcharm-project/assets/hero-watch-desktop@2x-2d4d1f67.webp 2x">
+                srcset="/watchcharm-project/assets/hero-watch-tablet@1x-8cbcc783.webp 1x, /watchcharm-project/assets/hero-watch-tablet@2x-7d4ba612.webp 2x">
+            <source media="(min-width: 355px)"
+                srcset="/watchcharm-project/assets/hero-watch-mobile@1x-c98e0bcc.webp 1x, /watchcharm-project/assets/hero-watch-mobile@2x-6753a3e6.webp 2x">
 
-                <img class="hero__img" src="/watchcharm-project/assets/hero-watch-desktop@1x-b4d226cc.webp" alt="watch">
+            <img class="hero__img" src="/watchcharm-project/assets/hero-watch-desktop@1x-b4d226cc.webp" alt="watch">
         </picture>
     </div>
 </section>
@@ -124,29 +148,52 @@
     </div>
 </section>
     <section class="catalog">
-    <div class="container">
-        <h3 class="log">Catalog</h3>
+  <div class="container">
+    <h3 class="log">Catalog</h3>
     <ul class="cards">
-    <div class="ddd1">
-    <li class="bac"><img src="/watchcharm-project/assets/watch1-f319de1b.png" alt="" class="waches"> <h3 class="name">Garmin Fenix 7X Pro Sapphire Sol</h3> <p class="cost">€500</p></li>
-    
-    <li class="bac"><img src="/watchcharm-project/assets/watch2-2df9f9b6.png" alt=""  class="waches"> <h3 class="name">Garmin Marq Athlete </h3> <p class="cost">€450</p></li>
-    
-    
-    <li class="bac"><img src="/watchcharm-project/assets/watch3-cc071311.png" alt=""  class="waches"> <h3 class="name">Garmin Descent MK1 </h3> <p class="cost">€680</p></li>
-    </div>
-    <div class="ddd">
-    
-    <li class="bac1"><img src="/watchcharm-project/assets/watch4-c8e45b64.png" alt=""  class="waches"> <h3 class="name">Garmin D2 Delta PX</h3> <p class="cost">€380</p></li>
-    
-    <li class="bac1"><img src="/watchcharm-project/assets/watch5-681a7f80.png" alt=""  class="waches"> <h3 class="name">Garmin Fenix 6 Pro Solar</h3> <p class="cost">€400</p></li>
-    
-    <li class="bac1"><img src="/watchcharm-project/assets/watch6-cf5a0c43.png" alt=""  class="waches"> <h3 class="name">Tube Watch S42 Date Steel With </h3> <p class="cost">€395</p></li>
-    </div>
+      <div class="ddd1">
+        <li class="bac">
+          <img src="/watchcharm-project/assets/watch1-f319de1b.png" alt="waches" class="waches" />
+          <h3 class="name">Garmin Fenix 7X Pro Sapphire Sol</h3>
+          <p class="cost">€500</p>
+        </li>
+
+        <li class="bac">
+          <img src="/watchcharm-project/assets/watch2-2df9f9b6.png" alt="waches" class="waches" />
+          <h3 class="name">Garmin Marq Athlete</h3>
+          <p class="cost">€450</p>
+        </li>
+
+        <li class="bac">
+          <img src="/watchcharm-project/assets/watch3-cc071311.png" alt="waches" class="waches" />
+          <h3 class="name">Garmin Descent MK1</h3>
+          <p class="cost">€680</p>
+        </li>
+      </div>
+      <div class="ddd">
+        <li class="bac1">
+          <img src="/watchcharm-project/assets/watch4-c8e45b64.png" alt="waches" class="waches" />
+          <h3 class="name">Garmin D2 Delta PX</h3>
+          <p class="cost">€380</p>
+        </li>
+
+        <li class="bac1">
+          <img src="/watchcharm-project/assets/watch5-681a7f80.png" alt="waches" class="waches" />
+          <h3 class="name">Garmin Fenix 6 Pro Solar</h3>
+          <p class="cost">€400</p>
+        </li>
+
+        <li class="bac1">
+          <img src="/watchcharm-project/assets/watch6-cf5a0c43.png" alt="waches" class="waches" />
+          <h3 class="name">Tube Watch S42 Date Steel With</h3>
+          <p class="cost">€395</p>
+        </li>
+      </div>
     </ul>
     <button class="show" type="button">Show more</button>
-    </div>
-    </section>
+  </div>
+</section>
+
     <section class="advert">
     <div class="container">
         <div class="pos">
@@ -158,7 +205,7 @@
 </section>
     <section class="sale">
   <div class="container">
-    <h3 class="sale-tittle">Sale</h3>
+    <h2 class="sale-tittle">Sale</h2>
     <div class="sale-container">
       <div class="sale-unifying">
         <ul class="sale-list">
@@ -250,11 +297,11 @@
         <div class="wach-container">
           <picture>
             <source
-              media="(1174px)"
+              media="(min-width:1174px)"
               srcset="/watchcharm-project/assets/sale-watch-tablet@1x-ab5df16d.webp 1x, /watchcharm-project/assets/sale-watch-tablet@2x-868b53ae.webp 2x"
             />
             <source
-              media="(720px)"
+              media="(min-width:720px)"
               srcset="/watchcharm-project/assets/sale-watch-tablet@1x-ab5df16d.webp 1x, /watchcharm-project/assets/sale-watch-tablet@2x-868b53ae.webp 2x"
             />
             <source
@@ -271,9 +318,9 @@
       </div>
       <ul class="sale-list-card">
         <li class="sale-item-card">
-          <h4 class="sale-card-tittle">
+          <h3 class="sale-card-tittle">
             MARQ® Commander (Gen 2) - Carbon Edition
-          </h4>
+          </h3>
         </li>
         <li class="sale-item-card">
           <p class="sale-tage">Product tag: 706587</p>
@@ -361,28 +408,26 @@
     </section>
     <section class="contact-us">
   <div class="container">
-    <h3 class="contact-tittle">Contact Us</h3>
+    <h2 class="contact-tittle">Contact Us</h2>
     <div class="contact-container">
-      <form class="contact-form" action="">
-        <label class="contact-lable" for=""
-          ><h5 class="contact-text">
-            Please use the form below to contact us. Enter your name, email,
-            phone, and message and we'll get back to you shortly.
-          </h5></label
-        >
-        <label for="" class="contact-lable">
+      <form class="contact-form">
+        <h3 class="contact-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </h3>
+        <label class="contact-lable">
           <input class="contact-input" type="text" placeholder="Name" /> </label
-        ><label for="" class="contact-lable">
+        ><label class="contact-lable">
           <input class="contact-input" type="text" placeholder="Email" /></label
-        ><label for="" class="contact-lable">
+        ><label class="contact-lable">
           <input class="contact-input" type="text" placeholder="+380" /></label
-        ><label for="" class="contact-lable">
+        ><label class="contact-lable">
           <input
             class="contact-input-com contact-input"
             type="text"
             placeholder="Comment"
         /></label>
-        <label class="contact-lable" for="">
+        <label class="contact-lable">
           <button class="contact-button">Send</button>
         </label>
       </form>
@@ -410,6 +455,118 @@
     </div>
   </div>
 </section>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__big-box">
+            <div class="footer__titles-box">
+                <div>
+                    <h2 class="footer__headline">watchcharm</h2>
+                    <div class="footer__svg-box">
+                        <svg class="footer__svg">
+                            <use href="../icons.svg#icon-facebook-svg"></use>
+                        </svg>
+                        <svg class="footer__svg footer__svg-center">
+                            <use href="../icons.svg#icon-instagram-svg"></use>
+                        </svg>
+                        <svg class="footer__svg">
+                            <use href="../icons.svg#icon-youtube-svg"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                    <p class="footer__ask-text">Have the time of your life with our watches: where high-class
+                        craftsmanship meets impeccable design</p>
+
+                    <button type="button" class="footer__button">+380 (68) 443-94-26</button>
+
+            </div>
+            <div class="footer__nav-box">
+                <ul class="footer__nav">
+                    <li class="footer__nav-li">
+                        <p class="footer__nav-text">Home</p>
+                    </li>
+                    <li class="footer__nav-li">
+                        <p class="footer__nav-text">About Us</p>
+                    </li>
+                    <li class="footer__nav-li">
+                        <p class="footer__nav-text">Catalog</p>
+                    </li>
+                    <li class="footer__nav-li">
+                        <p class="footer__nav-text">Sale</p>
+                    </li>
+                    <li class="footer__nav-li">
+                        <p class="footer__nav-text">Reviews</p>
+                    </li>
+                    <li class="footer__nav-li">
+                        <p class="footer__nav-text">Contact Us</p>
+                    </li>
+                </ul>
+
+                <p class="footer__location-text">1678 S. Pioneer Road Salt Lake City UT 84104</p>
+            </div>
+
+            <div class="footer__box">
+                <p class="footer__info-text">©2023 The Watch Spot. All rights reserved.</p>
+                <ul class="footer__small-ul">
+                    <li class="footer__small-li">
+                        <p class="footer__small-text">Terms of Service</p>
+                    </li>
+                    <li class="footer__small-li">
+                        <p class="footer__small-text">Privacy Policy</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <div class="mobile-menu">
+    <button class="mobile-close">
+        <svg class="mobile-close-svg">
+            <use href="../icons.svg#icon-close"></use>
+        </svg>
+    </button>
+
+    <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+            <p class="mobile-menu-text">Home</p>
+        </li>
+        <li class="mobile-menu-item">
+            <p class="mobile-menu-text">About Us</p>
+        </li>
+        <li class="mobile-menu-item">
+            <p class="mobile-menu-text">Catalog</p>
+        </li>
+        <li class="mobile-menu-item">
+            <p class="mobile-menu-text">Sale</p>
+        </li>
+        <li class="mobile-menu-item">
+            <p class="mobile-menu-text">Reviews</p>
+        </li>
+        <li class="mobile-menu-item">
+            <p class="mobile-menu-text">Contact Us</p>
+        </li>
+    </ul>
+
+    <ul class="mobile-menu-networks">
+        <li class="mobile-menu-network">
+            <svg class="mobile-svg">
+                <use href="../icons.svg#icon-facebook-svg"></use>
+            </svg>
+        </li>
+        <li class="mobile-menu-network">
+            <svg class="mobile-svg">
+                <use href="../icons.svg#icon-instagram-svg"></use>
+            </svg>
+        </li>
+        <li class="mobile-menu-network">
+            <svg class="mobile-svg">
+                <use href="../icons.svg#icon-youtube-svg"></use>
+            </svg>
+        </li>
+    </ul>
+</div>
 
 
     
