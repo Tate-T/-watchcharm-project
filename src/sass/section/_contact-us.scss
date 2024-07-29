@@ -39,6 +39,8 @@
   margin-bottom: 24px;
   text-align: start;
   padding-left: 20px;
+  animation-name: tittle-moves;
+  animation-duration: 1s;
 
   @media screen and (min-width: 720px) {
     font-size: 48px;
@@ -48,6 +50,15 @@
   }
 
   @media screen and (min-width: 1174px) {
+  }
+}
+
+@keyframes tittle-moves {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
@@ -165,4 +176,8 @@
   @media screen and (min-width: 720px) {
     padding: 17px 63px;
   }
+}
+
+.contact-button:hover {
+  background: #3b4ead;
 }

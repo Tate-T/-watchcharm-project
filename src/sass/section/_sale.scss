@@ -21,6 +21,8 @@
   line-height: 44px;
   letter-spacing: -0.96px;
   margin-bottom: 40px;
+  animation-name: tittle-move;
+  animation-duration: 1s;
 }
 
 .sale-unifying {
@@ -243,4 +245,19 @@
   padding: 8px 12px;
   border-radius: 8px;
   border: 1px solid $border-color;
+  animation-name: tittle-move;
+  animation-duration: 300ms;
+}
+
+.sale-people:hover {
+  background: rgba(251, 251, 251, 0.1);
+}
+
+@keyframes tittle-move {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
