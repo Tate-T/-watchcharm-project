@@ -1,5 +1,5 @@
 .reviews {
-    &__item {
+    .reviews-item {
         color: #0C0C0C;
 
         /* Desktop_tablet/H2 */
@@ -13,7 +13,7 @@
         padding-left: 65px;
     }
 
-    &__subitem {
+    .reviews-subitem {
         color: #0C0C0C;
         text-align: center;
         font-family: Gilroy;
@@ -25,7 +25,7 @@
         letter-spacing: -0.36px;
     }
 
-    &__text {
+    .reviews-text {
         color: rgba(12, 12, 12, 0.40);
         text-align: center;
 
@@ -40,12 +40,12 @@
         width: 298px;
     }
 
-    &__cards {
+    .reviews-cards {
         display: flex;
         justify-content: center;
         gap: 20px;
     }
-    &__card {
+    .reviews-card {
         display: flex;
         padding: 32px 36px;
         flex-direction: column;
@@ -54,7 +54,7 @@
         border-radius: 30px;
         background: #F3F3F3;
     }
-    &__imag {
+    .reviews-imag {
         width: 56px;
         height: 56px;
         border-radius: 56px;
@@ -62,13 +62,3 @@
         background: url(<path-to-image>) lightgray 50% / cover no-repeat, #F3F3F3;
     }
 }
-
-
-
-
-
-
-
-
-
-

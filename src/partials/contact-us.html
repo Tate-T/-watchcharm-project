@@ -1,4 +1,4 @@
-<section class="contact">
+<section class="contact-us">
   <div class="container">
     <h3 class="contact-tittle">Contact Us</h3>
     <div class="contact-container">
@@ -26,11 +26,34 @@
         </label>
       </form>
       <div class="contact-dark-container">
-        <img
-          src="./img/connact-us/contact-dark-time.png"
-          alt="dark-time"
-          class="contact-time"
-        />
+        <picture>
+          <source
+            media="(min-width: 1174px )"
+            srcset="
+              ./img/desktop/contact-dark-time-desktop@1x.webp 1x,
+              ./img/desktop/contact-dark-time-desktop@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 720px )"
+            srcset="
+              ./img/tablet/contact-dark-time-tablet@1x.webp 1x,
+              ./img/tablet/contact-dark-time-tablet@2x.webp
+            "
+          />
+          <source
+            media="(min-width: 355px)"
+            srcset="
+              ./img/mobile/contact-dark-time-mobile@1x.webp 1x,
+              ./img/mobile/contact-dark-time-mobile@2x.webp 2x
+            "
+          />
+          <img
+            src="./img/connact-us/contact-dark-time.png"
+            alt="dark-time"
+            class="contact-time"
+          />
+        </picture>
       </div>
     </div>
   </div>
