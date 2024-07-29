@@ -1,5 +1,5 @@
 .log{
-  color: #0C0C0C;
+    color: #0C0C0C;
 
 /* Desktop_tablet/H2 */
 font-family: Gilroy;
@@ -13,7 +13,7 @@ margin-top: 60px;
 }
 
 .name{
-  overflow: hidden;
+    overflow: hidden;
 color: #0C0C0C;
 
 text-overflow: ellipsis;
@@ -28,7 +28,7 @@ letter-spacing: -0.4px;
 }
 
 .cost{
-  color: rgba(12, 12, 12, 0.50);
+    color: rgba(12, 12, 12, 0.50);
 
 font-family: Gilroy;
 font-size: 14px;
@@ -39,7 +39,7 @@ letter-spacing: -0.28px;
 
 }
 .bac{
-  border-radius: 30px;
+    border-radius: 30px;
 border: 1px solid rgba(12, 12, 12, 0.05);
 
 background: #F3F3F3;
@@ -50,45 +50,43 @@ padding: 35px;
 }
 
 .bac1{
- 
-  border-radius: 30px;
-  border: 1px solid rgba(12, 12, 12, 0.05);
-  
-  background: #F3F3F3;
-  
-  
-  padding: 35px;
+    border-radius: 30px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    
+    background: #F3F3F3;
+   
+    display: block;
+    padding: 35px;
+
 }
 
 
+.bac1{
+    border-radius: 30px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    
+    background: #F3F3F3;
+    width: 368px;
+    height: 394px;
+    flex-shrink: 0;
+    display: block;
+}
 
 .cards{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 23px;
- 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+   
 
 }
 
-.ddd{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 23px;
- 
-}
-
-.ddd1{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 23px;
-}
 
 .waches{
 
 }
 
 .show{
-  color: #FBFBFB;
+    color: #FBFBFB;
 
 text-align: center;
 font-family: Gilroy;
@@ -109,52 +107,20 @@ display: none;
 
 @media screen and ( max-width:1200px){
 
-.cards{
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 16px;
+    .cards{
+<<<<<
+       
+    }
 
-}
-
- .ddd1{
-  display: flex;
-      flex-direction: column;
-      gap: 16px;
- }
-  
-  .ddd{
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    
-    
-     
-  }
-
-  .bac{
-padding: 24px;
-  }
-  .bac1{
-padding: 24px;
-  }
-
-}
-
+    .bac{
+<<
 
 @media screen and ( max-width:719px){
 
+   .show{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 60px;
+   }
 
-
- .show{
-  display: block;
-  margin-top: 50px;
-  margin-bottom: 60px;
-
- }
-
- .bac1{
-  display: none;
- }
- 
-
-}
+<<<<<
