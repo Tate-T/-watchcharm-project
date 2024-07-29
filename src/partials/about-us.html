@@ -14,7 +14,16 @@
             <button class="about__button" type="button">View catalog</button>
         </div>
         <div class="about__title2">
-            <img src="./images/watch.png" alt="">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset=" ./img/desktop/watch1xdesctope.webp 1x , ./img/desktop/watch2xdesctope.webp 2x">
+                <source media="(min-width: 768px)"
+                    srcset="./img/tablet/watch1xtablet.webp 1x ,  ./img/tablet/watch2xtablet.webp  2x">
+                <source media="(max-width: 767px)"
+                    srcset="./img/mobile/watch1xmobail.webp 1x , ./img/mobile/watch2xmobail.webp  2x">
+                <img src="./img/img2.jpg" alt="фото-людини " class="mein__photo1">
+
+            </picture>
         </div>
     </div>
 </section>
