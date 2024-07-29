@@ -1,49 +1,53 @@
-.text-wite{
+.text-wite {
     width: 690px;
     color: white;
 
-/* Desktop_tablet/H2 */
-font-family: Gilroy;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 44px; /* 91.667% */
-letter-spacing: -0.96px;
-width: 690px;
+    /* Desktop_tablet/H2 */
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    /* 91.667% */
+    letter-spacing: -0.96px;
+    width: 690px;
 
 }
-.text-gray{
+
+.text-gray {
     color: rgba(251, 251, 251, 0.50);
-/* Desktop_tablet/H2 */
-font-family: Gilroy;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 44px;
-letter-spacing: -0.96px;
+    /* Desktop_tablet/H2 */
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.96px;
 }
-.contact2{
+
+.contact2 {
     color: #FBFBFB;
 
-text-align: center;
-font-family: Gilroy;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 18px; /* 128.571% */
-border-radius: 30px;
-border-radius: 16px;
-border: 1px solid rgba(251, 251, 251, 0.15);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 128.571% */
+    border-radius: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 251, 251, 0.15);
 
-background-color: transparent;
-margin-left: 140px;
-width: 160px;
-height: 48px;
-flex-shrink: 0;
+    background-color: transparent;
+    margin-left: 140px;
+    width: 160px;
+    height: 48px;
+    flex-shrink: 0;
 
 }
 
-.pos{
+.pos {
     display: flex;
     background: url(../img/advertismant/bacraun.png) rgb(12, 12, 12) -20px -114px / 111.304% 241.611% no-repeat;
     border-radius: 30px;
@@ -51,54 +55,51 @@ flex-shrink: 0;
 
 }
 
-.advert{
-   
- 
-
-}
+.advert {}
 
 
-@media screen and ( max-width:1200px){
+@media screen and (max-width:1200px) {
 
-    .text-wite{
+    .text-wite {
         width: 576px;
-height: 185px;
-flex-shrink: 0;
+        height: 185px;
+        flex-shrink: 0;
     }
 
-    .pos{
+    .pos {
         display: flex;
         flex-direction: column;
 
     }
 
-    .contact2{
-margin-left: -0;
-margin-top: 22px;
+    .contact2 {
+        margin-left: -0;
+        margin-top: 22px;
     }
 }
 
-@media screen and ( max-width:719px){
+@media screen and (max-width:719px) {
 
-    .text-wite{
+    .text-wite {
         width: 279px;
         height: 167px;
         flex-shrink: 0;
         font-size: 30px;
     }
 
-    .text-gray{
+    .text-gray {
         font-size: 30px;
     }
 
-    .pos{
+    .pos {
         display: flex;
         flex-direction: column;
 
     }
 
-    .contact2{
-margin-left: -0;
-margin-top: 72px;
+    .contact2 {
+        margin-left: -0;
+        margin-top: 72px;
     }
 
+}
