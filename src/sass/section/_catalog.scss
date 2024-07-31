@@ -1,147 +1,183 @@
-.log {
+.log{
     color: #0C0C0C;
 
-    /* Desktop_tablet/H2 */
-    font-family: Gilroy;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-    /* 91.667% */
-    letter-spacing: -0.96px;
-    margin-bottom: 24px;
-    margin-top: 60px;
+/* Desktop_tablet/H2 /
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; / 91.667% /
+letter-spacing: -0.96px;
+margin-bottom: 24px;
+margin-top: 60px;
 }
 
-.name {
+.name{
     overflow: hidden;
-    color: #0C0C0C;
+color: #0C0C0C;
 
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-family: Gilroy;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    /* 100% */
-    letter-spacing: -0.4px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-family: Gilroy;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    /* 100% */
-    letter-spacing: -0.4px;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; / 100% /
+letter-spacing: -0.4px;
 
 }
 
-.cost {
+.cost{
     color: rgba(12, 12, 12, 0.50);
 
-    font-family: Gilroy;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    /* 128.571% */
-    letter-spacing: -0.28px;
-    font-family: Gilroy;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    /* 128.571% */
-    letter-spacing: -0.28px;
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; / 128.571% /
+letter-spacing: -0.28px;
 
 }
-
-.bac {
+.bac{
     border-radius: 30px;
-    border: 1px solid rgba(12, 12, 12, 0.05);
-}
+border: 1px solid rgba(12, 12, 12, 0.05);
 
-.bac {
-    border-radius: 30px;
-    border: 1px solid rgba(12, 12, 12, 0.05);
+background: #F3F3F3;
 
-    background: #F3F3F3;
-    background: #F3F3F3;
+padding: 25px;
 
-
-    padding: 35px;
-    padding: 35px;
 
 }
 
-.bac1 {
+.bac1{
+
     border-radius: 30px;
     border: 1px solid rgba(12, 12, 12, 0.05);
 
     background: #F3F3F3;
 
-    display: block;
-    padding: 35px;
 
-    .bac1 {
-        border-radius: 30px;
-        border: 1px solid rgba(12, 12, 12, 0.05);
-
-        background: #F3F3F3;
-
-        display: block;
-        padding: 35px;
-
-    }
+    padding: 25px;
+}
 
 
-    .bac1 {
-        border-radius: 30px;
-        border: 1px solid rgba(12, 12, 12, 0.05);
 
-        background: #F3F3F3;
-        width: 368px;
-        height: 394px;
-        flex-shrink: 0;
-        display: block;
-    }
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+   padding-bottom: 50px;
 
-    .cards {
+
+}
+
+.ddd{
+    display: flex;
+    flex-wrap: wrap;
+
+   gap: 20px;
+}
+
+.ddd1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.waches{
+
+}
+
+.show{
+    color: #FBFBFB;
+
+text-align: center;
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; / 128.571% */
+width: 160px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #3350E9;
+margin-left: 100px;
+display: none;
+}
+
+
+
+@media screen and ( max-width:1200px){
+
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+   .ddd1{
+    display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+   }
+
+    .ddd{
         display: flex;
-        flex-wrap: wrap;
-        gap: 23px;
+        flex-direction: column;
+        gap: 32px;
+
 
 
     }
-
-    .show {
-        color: #FBFBFB;
-
-        text-align: center;
-        font-family: Gilroy;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 18px;
-        /* 128.571% */
-        width: 160px;
-        height: 48px;
-        flex-shrink: 0;
-        border-radius: 16px;
-        background: #3350E9;
-        margin-left: 100px;
-        display: none;
+.bac{
+        padding: 15px;
+        padding-bottom: 20px;
+    }
+    .bac1{
+padding: 15px;
+padding-bottom:45px;
     }
 
-    @media screen and (max-width:719px) {
+    .bacc{
+padding-bottom: 25px;
+    }
 
-        .show {
-            display: block;
-            margin-top: 50px;
-            margin-bottom: 60px;
+    .bsc{
+padding-bottom: 5px;
+    }
+
+    .bsc1{
+        padding-bottom: 30px;
+    }
+}
+
+
+@media screen and ( max-width:719px){
+
+
+
+   .show{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+   }
+
+   .bac1{
+    display: none;
+   }
+
+   .bacc{
+  display: none;
         }
 
-    }
+        .bsc{
+   display: none;
+        }
+
+
+
 }
