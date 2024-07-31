@@ -1,15 +1,19 @@
 .mobile-menu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     right: 0;
-    width: 120px;
-    padding: 20px 20px 40px 39px;
-    background-image: url(../../img/tablet/mobile-menu-clock-tablet@1x.webp);
+    width: 160px;
+    padding: 20px 20px 40px 20px;
+    background-image: url(../img/mobile/mobile-back-mobile@1x.webp);
     // transform: translate(200px, 0);
+    transition: all;
 
     @media screen and (min-width: 720px) {
+        background-image: url(../img/tablet/mobile-menu-clock-tablet@1x.webp);
         padding: 26px 32px 50px;
         width: 266px;
         // transform: translate(330px, 0);
