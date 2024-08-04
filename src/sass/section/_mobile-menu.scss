@@ -1,4 +1,5 @@
 .mobile-menu {
+    z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,14 +10,13 @@
     width: 160px;
     padding: 20px 20px 40px 20px;
     background-image: url(../img/mobile/mobile-back-mobile@1x.webp);
-    // transform: translate(200px, 0);
-    transition: all;
+    transform: translate(0, 0);
+    transition: transform 250ms ease-out;
 
     @media screen and (min-width: 720px) {
         background-image: url(../img/tablet/mobile-menu-clock-tablet@1x.webp);
         padding: 26px 32px 50px;
         width: 266px;
-        // transform: translate(330px, 0);
     }
 
     @media screen and (min-width: 1174px) {
@@ -26,8 +26,12 @@
 }
 
 .mobile-menu.is-hidden {
-    opacity: 0;
+    transform: translate(200px, 0);
     pointer-events: none;
+
+    @media screen and (min-width: 720px) {
+        transform: translate(330px, 0);
+    }
 }
 
 .mobile-menu-list {
@@ -69,13 +73,15 @@
 .mobile-close {
     display: flex;
     justify-content: end;
-    width: 100%;
+    width: 34px;
     height: 34px;
     background: none;
     cursor: pointer;
+    margin-left: 136px;
 
     @media screen and (min-width: 720px) {
-        width: 100%;
+        margin-left: 248px;
+        width: 40px;
         height: 40px;
     }
 }
