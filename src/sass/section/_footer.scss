@@ -5,18 +5,25 @@
     background: #0C0C0C;
 
 
-
-
+    
+    
 
 
     &__headline {
 
 
-        @media screen and (min-width: 355px) {}
-
-        @media screen and (min-width: 720px) {}
-
-        @media screen and (min-width: 1174px) {
+        @media screen and (min-width: 355px) {
+            color: #FBFBFB;
+            font-family: Gilroy;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -0.32px;
+            margin-bottom: 20px;
+        }    
+    
+        @media screen and (min-width: 720px) {
             color: #FBFBFB;
             font-family: Gilroy;
             font-size: 20px;
@@ -25,31 +32,16 @@
             line-height: normal;
             letter-spacing: -0.4px;
         }
-    }
-
-
-
-    &__title {
-
-
-        @media screen and (min-width: 355px) {}
-
-        @media screen and (min-width: 720px) {}
-
+    
         @media screen and (min-width: 1174px) {
             color: #FBFBFB;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            /* Desktop_tablet/H4 */
-            font-family: Gilroy;
-            font-size: 28px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 32px;
-            /* 114.286% */
-            letter-spacing: -0.56px;
-            width: 523px;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        margin-bottom: 20px;
         }
     }
 
@@ -57,23 +49,75 @@
     &__button {
 
 
-        @media screen and (min-width: 355px) {}
-
-        @media screen and (min-width: 720px) {}
-
-        @media screen and (min-width: 1174px) {
+        @media screen and (min-width: 355px) {
+            border-radius: 16px;
+            border: 1px solid rgba(251, 251, 251, 0.20);
+            background-color: transparent;
+            color: #FBFBFB;
+            text-align: center;
+            font-family: Gilroy;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px; /* 133.333% */
+            text-transform: uppercase;
+            width: 152px;
+height: 44px;
+margin-top: 20px;
+margin-bottom: 40px;
+        }    
+    
+        @media screen and (min-width: 720px) {
+            
             border-radius: 16px;
             border: 1px solid rgba(251, 251, 251, 0.20);
             color: #FBFBFB;
-            background-color: transparent;
-            font-family: Gilroy;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 18px;
-            text-transform: uppercase;
-            padding: 15px;
-            height: 48px;
+text-align: center;
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+text-transform: uppercase;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: auto;
+        }
+    
+        @media screen and (min-width: 1174px) {
+            border-radius: 16px;
+        border: 1px solid rgba(251, 251, 251, 0.20);
+        color: #FBFBFB;
+        background-color: transparent;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        text-transform: uppercase;
+        padding: 15px;
+        height: 48px;
+        margin-top: 0px;
+margin-bottom: 0px;
+margin-left: auto;
+
+        }
+    }
+
+
+    &__flex-box {
+
+
+        @media screen and (min-width: 355px) {
+display: block;
+        }    
+    
+        @media screen and (min-width: 720px) {
+       display: flex;
+        }
+    
+        @media screen and (min-width: 1174px) {
+            display: flex;
         }
     }
 
@@ -82,86 +126,164 @@
 
 
 
-        @media screen and (min-width: 355px) {}
+        @media screen and (min-width: 355px) {
 
-        @media screen and (min-width: 720px) {}
-
+        }    
+    
+        @media screen and (min-width: 720px) {
+    
+        }
+    
         @media screen and (min-width: 1174px) {
             display: flex;
+            margin-bottom: 126px;
         }
     }
 
     &__svg-box {
         display: flex;
         align-items: flex-start;
+        
+    }
 
+
+    &__ask-text-mobile {
+        @media screen and (min-width: 355px) {
+            color: #FBFBFB;
+            text-align: center;
+            
+            /* Mobile/H4 */
+            font-family: Gilroy;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 120% */
+            letter-spacing: -0.4px;
+            width: 279px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }    
+        
+        @media screen and (min-width: 720px) {
+            color: #FBFBFB;
+            margin-left: auto;
+            margin-right: auto;
+            /* Desktop_tablet/H4 */
+            font-family: Gilroy;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 32px; /* 114.286% */
+            letter-spacing: -0.56px;
+            width: 524px;
+            margin-top: 86px;
+        }
+        
+        @media screen and (min-width: 1174px) {
+display: none;
+        }
     }
 
     &__ask-text {
 
 
 
-        @media screen and (min-width: 355px) {}
+@media screen and (min-width: 355px) {
+display: none;
+}    
 
-        @media screen and (min-width: 720px) {}
+@media screen and (min-width: 720px) {
 
-        @media screen and (min-width: 1174px) {
-            color: #FBFBFB;
-            text-align: center;
+}
 
-            /* Desktop_tablet/H4 */
-            font-family: Gilroy;
-            font-size: 28px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 32px;
-            /* 114.286% */
-            letter-spacing: -0.56px;
-            width: 523px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+@media screen and (min-width: 1174px) {
+    color: #FBFBFB;
+    text-align: center;
+    
+    /* Desktop_tablet/H4 */
+    font-family: Gilroy;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 114.286% */
+    letter-spacing: -0.56px;
+    width: 523px;
+    margin-left: 178px;
+    margin-right: 143px;
+    display: block;
+}
     }
 
     &__svg {
         fill: #FBFBFB;
         border-radius: 10px;
-        border: 1px solid rgba(251, 251, 251, 0.10);
+border: 1px solid rgba(251, 251, 251, 0.10);
 
-        @media screen and (min-width: 355px) {}
+@media screen and (min-width: 355px) {
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+}    
 
-        @media screen and (min-width: 720px) {}
+@media screen and (min-width: 720px) {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+}
 
-        @media screen and (min-width: 1174px) {
-            width: 20px;
-            height: 20px;
-            padding: 8px;
-        }
+@media screen and (min-width: 1174px) {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    fill: #FBFBFB;
+}
     }
 
     &__svg-center {
 
 
-        @media screen and (min-width: 355px) {}
-
-        @media screen and (min-width: 720px) {}
-
+        @media screen and (min-width: 355px) {
+            margin-left: 10px;
+        margin-right: 10px;
+        }    
+    
+        @media screen and (min-width: 720px) {
+    
+        }
+    
         @media screen and (min-width: 1174px) {
             margin-left: 8px;
-            margin-right: 8px;
+        margin-right: 8px;
         }
     }
 
     &__nav {
         display: flex;
-        margin-right: auto;
+        
 
-        @media screen and (min-width: 355px) {}
-
-        @media screen and (min-width: 720px) {}
-
+        @media screen and (min-width: 355px) {
+            display: flex;
+            width: 147px;
+            gap: 8px 16px;
+            flex-wrap: wrap;
+            margin-right: auto;
+            margin-bottom: 24px;
+        }    
+    
+        @media screen and (min-width: 720px) {
+            gap: 19px;
+            flex-wrap: nowrap;
+            margin-right: auto;
+            margin-bottom: 28px;
+            width: auto;
+        }
+    
         @media screen and (min-width: 1174px) {
             gap: 40px;
+            flex-wrap: nowrap;
+            width: auto;
+            margin-right: auto;
         }
     }
 
@@ -169,51 +291,86 @@
 
 
 
-        @media screen and (min-width: 355px) {}
+@media screen and (min-width: 355px) {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+}    
 
-        @media screen and (min-width: 720px) {}
+@media screen and (min-width: 720px) {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+}
 
-        @media screen and (min-width: 1174px) {
-            color: #FBFBFB;
-            text-align: center;
-            font-family: Gilroy;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 18px;
-            /* 128.571% */
-        }
+@media screen and (min-width: 1174px) {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+}
     }
 
 
     &__location-text {
 
 
-        @media screen and (min-width: 355px) {}
+@media screen and (min-width: 355px) {
+    color: #FBFBFB;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    width: 83px;
+}    
 
-        @media screen and (min-width: 720px) {}
+@media screen and (min-width: 720px) {
+    color: #FBFBFB;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    width: 162px;
+}
 
-        @media screen and (min-width: 1174px) {
-            color: #FBFBFB;
-            font-family: Gilroy;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 18px;
-            /* 128.571% */
-            width: 162px;
-        }
+@media screen and (min-width: 1174px) {
+    color: #FBFBFB;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    width: 162px;
+}
     }
 
     &__box {
 
 
-        @media screen and (min-width: 355px) {}
+        @media screen and (min-width: 355px) {
 
-        @media screen and (min-width: 720px) {}
-
+        }    
+    
+        @media screen and (min-width: 720px) {
+             display: flex;
+        }
+    
         @media screen and (min-width: 1174px) {
             display: flex;
+            margin-top: 28px;
         }
     }
 
@@ -223,22 +380,46 @@
 
 
 
-        @media screen and (min-width: 355px) {}
+@media screen and (min-width: 355px) {
+    color: rgba(251, 251, 251, 0.50);
+    font-family: Gilroy;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 140% */
+    letter-spacing: -0.2px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}    
 
-        @media screen and (min-width: 720px) {}
+@media screen and (min-width: 720px) {
+    color: rgba(251, 251, 251, 0.50);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    margin-right: auto;
+}
 
-        @media screen and (min-width: 1174px) {
-            color: rgba(251, 251, 251, 0.50);
-            font-family: Gilroy;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 18px;
-            /* 128.571% */
-            letter-spacing: -0.28px;
-            opacity: 0.9;
-            margin-right: auto;
-        }
+@media screen and (min-width: 1174px) {
+    color: rgba(251, 251, 251, 0.50);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    opacity: 0.9;
+    margin-right: auto;
+}
+    }
+
+    &__stroke {
+        width: auto;
+        height: 1px;
+background-color: rgba(251, 251, 251, 0.10);
     }
 
     &__small-ul {
@@ -247,10 +428,14 @@
 
 
 
-        @media screen and (min-width: 355px) {}
-
-        @media screen and (min-width: 720px) {}
-
+        @media screen and (min-width: 355px) {
+            gap: 20px;
+        }    
+    
+        @media screen and (min-width: 720px) {
+        gap: 20px;
+        }
+    
         @media screen and (min-width: 1174px) {
             gap: 20px;
         }
@@ -260,30 +445,53 @@
 
 
 
-        @media screen and (min-width: 355px) {}
+@media screen and (min-width: 355px) {
+    color: rgba(251, 251, 251, 0.50);
+    text-align: right;
+    font-family: Gilroy;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 140% */
+    letter-spacing: -0.2px;
+}    
 
-        @media screen and (min-width: 720px) {}
+@media screen and (min-width: 720px) {
+    color: rgba(251, 251, 251, 0.50);
+    text-align: right;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+}
 
-        @media screen and (min-width: 1174px) {
-            color: rgba(251, 251, 251, 0.50);
-            font-family: Gilroy;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 18px;
-            /* 128.571% */
-            letter-spacing: -0.28px;
-        }
+@media screen and (min-width: 1174px) {
+    color: rgba(251, 251, 251, 0.50);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+}
     }
 
     &__nav-box {
         display: flex;
 
 
-        @media screen and (min-width: 355px) {}
-
-        @media screen and (min-width: 720px) {}
-
-        @media screen and (min-width: 1174px) {}
+        @media screen and (min-width: 355px) {
+margin-top: 92px;
+        }    
+    
+        @media screen and (min-width: 720px) {
+    
+        }
+    
+        @media screen and (min-width: 1174px) {
+           margin-bottom: 28px;
+        }
     }
 }
