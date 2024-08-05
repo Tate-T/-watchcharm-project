@@ -43,10 +43,19 @@ letter-spacing: -0.28px;
 border: 1px solid rgba(12, 12, 12, 0.05);
 
 background: #F3F3F3;
+padding: 20px;
 
-padding: 25px;
 
 
+
+}
+
+.card1{
+    border-radius: 30px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    
+    background: #F3F3F3;
+    padding: 20px;
 }
 
 
@@ -57,9 +66,9 @@ padding: 25px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     
     background: #F3F3F3;
+    padding: 20px;
     
-    
-    padding: 25px;
+   
 }
 
 
@@ -119,51 +128,48 @@ display: none;
 .cards{
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 29px;
+    margin-left: 20px;
+   
 
 }
 
-   .ddd1{
-    display: flex;
-        flex-direction: column;
-        gap: 32px;
-       
-   }
-    
-    .ddd{
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-      
-      
-       
-    }
-
+.waches{
+    width: 268px;
+height: 292px;
+flex-shrink: 0;
+}
 
     .card{
 
-        padding: 15px;
-        padding-bottom: 20px;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-top: 34px;
+       padding-bottom: 24px;
     }
+
+    .card1{
+        padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 34px;
+       padding-bottom: 24px;
+    }
+
    .none-item{
     
-padding: 15px;
-padding-bottom:45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 34px;
+    padding-bottom: 24px;
     }
 
+.flex-suporter2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 34px;
+    padding-bottom: 24px;
+}
 
-    .flex-suporter1{
 
-padding-bottom: 35px;
-    }
-
-    .flex-suporter2{
-padding-bottom: 5px;
-    }
-
-    .flex-suporter{
-        padding-bottom: 30px;
-    }
 }
 
 
