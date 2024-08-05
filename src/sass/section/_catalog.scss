@@ -66,7 +66,8 @@ padding: 25px;
     display: flex;
     flex-wrap: wrap;
     gap: 23px;
-   padding-bottom: 50px;
+   padding-bottom: 100px;
+   margin-left: 50px;
    
 
 }
@@ -114,6 +115,7 @@ display: none;
 .cards{
     display: flex;
     flex-wrap: nowrap;
+    margin-left: 29px;
 
 }
 
@@ -167,7 +169,11 @@ padding-bottom: 5px;
 
    }
 
+   .cards{
+   
+    margin-left: 20px;
 
+}
 
    .bac1{
     display: none;
