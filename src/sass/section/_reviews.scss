@@ -168,7 +168,7 @@
     }
 }
 
-.people1 {
+.reviews-card.people1 {
     display: block;
 
     @media screen and (min-width: 720px) {}
@@ -178,7 +178,7 @@
 
 }
 
-.people2 {
+.reviews-card.people2 {
     display: none;
 
     @media screen and (min-width: 720px) {
@@ -190,7 +190,7 @@
 
 }
 
-.people3 {
+.reviews-card.people3 {
     display: none;
 
     @media screen and (min-width: 720px) {}
