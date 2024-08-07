@@ -1,5 +1,5 @@
 .about {
-    &__item {
+    .about-item {
         color: #0C0C0C;
 
         /* Mobile/H2 */
@@ -11,6 +11,7 @@
         /* 100% */
         letter-spacing: -0.64px;
         padding-top: 40px;
+        margin-bottom: 28px;
 
         @media screen and (min-width: 720px) {
             color: #0C0C0C;
@@ -24,6 +25,7 @@
             /* 91.667% */
             letter-spacing: -0.96px;
             padding-top: 80px;
+            margin-bottom: 40px;
         }
 
         @media screen and (min-width: 1174px) {
@@ -41,7 +43,7 @@
         }
     }
 
-    &__container {
+    .about-container {
         gap: 20px;
         padding-top: 60px;
 
@@ -58,7 +60,55 @@
         }
     }
 
-    &__text {
+    .about-text1 {
+        color: rgba(12, 12, 12, 0.70);
+
+        /* Mobile/Main text */
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+        width: 295px;
+        flex-shrink: 0;
+        margin-bottom: 20px;
+
+        @media screen and (min-width: 720px) {
+            color: rgba(12, 12, 12, 0.70);
+
+            /* Desktop_tablet/Main text */
+            font-family: Gilroy;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            /* 125% */
+            letter-spacing: -0.32px;
+            width: 584px;
+            flex-shrink: 0;
+
+        }
+
+        @media screen and (min-width: 1174px) {
+            color: rgba(12, 12, 12, 0.70);
+
+            /* Desktop_tablet/Main text */
+            font-family: Gilroy;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            /* 125% */
+            letter-spacing: -0.32px;
+            width: 460px;
+            flex-shrink: 0;
+
+        }
+    }
+
+    .about-text2 {
         color: rgba(12, 12, 12, 0.70);
 
         /* Mobile/Main text */
@@ -103,7 +153,7 @@
         }
     }
 
-    &__button {
+    .about-button {
         border-radius: 16px;
         background: #3350E9;
         width: 160px;
@@ -128,7 +178,7 @@
         }
     }
 
-    &__title1 {
+    .about-title1 {
         width: 335px;
         height: 446px;
         flex-shrink: 0;
@@ -149,8 +199,8 @@
         }
     }
 
-    &__title2 {
-        width: 335px;
+    .about-title2 {
+
         height: 446px;
         border-radius: 30px;
         background: linear-gradient(0deg, rgba(12, 12, 12, 0.20) 0%, rgba(12, 12, 12, 0.20) 100%), url(<path-to-image>) lightgray -268.854px -7.491px / 257.167% 110.52% no-repeat;
