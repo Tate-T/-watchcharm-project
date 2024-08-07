@@ -199,17 +199,16 @@
         }
     }
 
-    &__title2 {
+    &__watch {
 
         width: 335px;
         height: 446px;
         border-radius: 30px;
-       
+
         @media screen and (min-width: 720px) {
             width: 704px;
             height: 512px;
             border-radius: 50px;
-          
         }
 
         @media screen and (min-width: 1174px) {
