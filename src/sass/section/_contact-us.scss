@@ -107,6 +107,7 @@
   border-radius: 12px;
   border: 1px solid $fatty-color;
   background: none;
+  outline: 0;
 
   @media screen and (min-width: 720px) {
     padding: 16px 18px 16px 18px;
@@ -116,6 +117,14 @@
   @media screen and (min-width: 1174px) {
     padding: 16px 16px 16px 16px;
   }
+}
+
+.contact-input:hover {
+  border: 1px solid $card-color;
+}
+
+.contact-input:focus {
+  border: 1px solid $card-color;
 }
 
 .contact-input-com {
@@ -130,6 +139,10 @@
   @media screen and (min-width: 1174px) {
     padding: 16px 16px 54px 16px;
   }
+}
+
+.contact-input-com:hover {
+  border: 1px solid $card-color;
 }
 
 .contact-input::placeholder {
