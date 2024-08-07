@@ -1,5 +1,5 @@
 .about {
-    .about-item {
+    &__item {
         color: #0C0C0C;
 
         /* Mobile/H2 */
@@ -43,7 +43,7 @@
         }
     }
 
-    .about-container {
+    &__container {
         gap: 20px;
         padding-top: 60px;
 
@@ -60,7 +60,7 @@
         }
     }
 
-    .about-text1 {
+    &__text1 {
         color: rgba(12, 12, 12, 0.70);
 
         /* Mobile/Main text */
@@ -108,7 +108,7 @@
         }
     }
 
-    .about-text2 {
+    &__text2 {
         color: rgba(12, 12, 12, 0.70);
 
         /* Mobile/Main text */
@@ -153,7 +153,7 @@
         }
     }
 
-    .about-button {
+    &__button {
         border-radius: 16px;
         background: #3350E9;
         width: 160px;
@@ -178,7 +178,7 @@
         }
     }
 
-    .about-title1 {
+    &__title1 {
         width: 335px;
         height: 446px;
         flex-shrink: 0;
@@ -199,7 +199,8 @@
         }
     }
 
-    .about-title2 {
+    &__title2 {
+
         width: 335px;
         height: 446px;
         border-radius: 30px;
@@ -208,7 +209,7 @@
             width: 704px;
             height: 512px;
             border-radius: 50px;
-            
+          
         }
 
         @media screen and (min-width: 1174px) {
