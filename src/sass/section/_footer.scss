@@ -14,7 +14,14 @@
 
 
     &__headline {
-
+        color: #FBFBFB;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.32px;
+        margin-bottom: 20px;
 
         @media screen and (min-width: 355px) {
             color: #FBFBFB;
@@ -51,7 +58,23 @@
 
 
     &__button {
-
+        width: max-content;
+        height: min-content;
+                    border-radius: 16px;
+                    border: 1px solid rgba(251, 251, 251, 0.20);
+                    background-color: transparent;
+                    color: #FBFBFB;
+                    text-align: center;
+                    font-family: Gilroy;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px; /* 133.333% */
+                    text-transform: uppercase;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 14px;
+        padding-bottom: 14px;
 
         @media screen and (min-width: 355px) {
             width: max-content;
@@ -67,8 +90,10 @@ height: min-content;
             font-weight: 500;
             line-height: 16px; /* 133.333% */
             text-transform: uppercase;
-margin-top: 20px;
-margin-bottom: 40px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 14px;
+padding-bottom: 14px;
         }    
     
         @media screen and (min-width: 720px) {
@@ -87,6 +112,7 @@ text-transform: uppercase;
 margin-top: 0px;
 margin-bottom: 0px;
 margin-left: auto;
+padding: 15px;
         }
     
         @media screen and (min-width: 1174px) {
@@ -113,7 +139,7 @@ margin-left: auto;
 
 
     &__flex-box {
-
+        display: block;
 
         @media screen and (min-width: 355px) {
 display: block;
@@ -131,7 +157,7 @@ display: block;
 
     &__titles-box {
 
-
+display: block;
 
         @media screen and (min-width: 355px) {
 
@@ -142,18 +168,34 @@ display: block;
         }
     
         @media screen and (min-width: 1174px) {
-
+            
         }
     }
 
     &__svg-box {
         display: flex;
-        align-items: flex-start;
+margin-bottom: 20px;
         
     }
 
 
     &__ask-text-mobile {
+        color: #FBFBFB;
+        text-align: center;
+        
+        /* Mobile/H4 */
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+        width: 279px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+
         @media screen and (min-width: 355px) {
             color: #FBFBFB;
             text-align: center;
@@ -169,6 +211,7 @@ display: block;
             display: block;
             margin-left: auto;
             margin-right: auto;
+            margin-top: 40px;
         }    
         
         @media screen and (min-width: 720px) {
@@ -192,7 +235,7 @@ display: none;
     }
 
     &__ask-text {
-
+display: none;
 
 
 @media screen and (min-width: 355px) {
@@ -225,6 +268,9 @@ display: none;
         fill: #FBFBFB;
         border-radius: 10px;
 border: 1px solid rgba(251, 251, 251, 0.10);
+width: 18px;
+height: 18px;
+padding: 8px;
 
 @media screen and (min-width: 355px) {
     width: 18px;
@@ -247,7 +293,8 @@ border: 1px solid rgba(251, 251, 251, 0.10);
     }
 
     &__svg-center {
-
+        margin-left: 10px;
+        margin-right: 10px;
 
         @media screen and (min-width: 355px) {
             margin-left: 10px;
@@ -266,7 +313,13 @@ border: 1px solid rgba(251, 251, 251, 0.10);
 
     &__nav {
         display: flex;
-        
+        display: flex;
+        width: 147px;
+        gap: 8px 16px;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-bottom: 24px;
+
 
         @media screen and (min-width: 355px) {
             display: flex;
@@ -294,7 +347,13 @@ border: 1px solid rgba(251, 251, 251, 0.10);
     }
 
     &__nav-text {
-
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 133.333% */
 
 
 @media screen and (min-width: 355px) {
@@ -330,7 +389,13 @@ border: 1px solid rgba(251, 251, 251, 0.10);
 
 
     &__location-text {
-
+        color: #FBFBFB;
+        font-family: Gilroy;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 133.333% */
+        width: 83px;
 
 @media screen and (min-width: 355px) {
     color: #FBFBFB;
@@ -382,7 +447,15 @@ border: 1px solid rgba(251, 251, 251, 0.10);
 
 
     &__info-text {
-
+        color: rgba(251, 251, 251, 0.50);
+        font-family: Gilroy;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px; /* 140% */
+        letter-spacing: -0.2px;
+        margin-top: 24px;
+        margin-bottom: 8px;
 
 
 
@@ -431,7 +504,7 @@ background-color: rgba(251, 251, 251, 0.10);
     &__small-ul {
         display: flex;
         align-items: flex-end;
-
+        gap: 20px;
 
 
         @media screen and (min-width: 355px) {
@@ -448,7 +521,14 @@ background-color: rgba(251, 251, 251, 0.10);
     }
 
     &__small-text {
-
+        color: rgba(251, 251, 251, 0.50);
+        text-align: right;
+        font-family: Gilroy;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px; /* 140% */
+        letter-spacing: -0.2px;
 
 
 @media screen and (min-width: 355px) {
@@ -486,7 +566,7 @@ background-color: rgba(251, 251, 251, 0.10);
 
     &__nav-box {
         display: flex;
-
+        margin-top: 92px;
 
         @media screen and (min-width: 355px) {
 margin-top: 92px;
