@@ -14,57 +14,58 @@
     
     <title>Collection watches</title>
     <script type="module" crossorigin src="/watchcharm-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/watchcharm-project/assets/index-980b22b9.css">
+    <link rel="stylesheet" href="/watchcharm-project/assets/index-8858bbd2.css">
   </head>
 
   <body>
     <header class="header">
-    <div class="container header-container">
-        <h1 class="header__title">watchcharm</h1>
-        <ul class="header__list">
-            <li class="header__item">
-                <p class="header__text">Home</p>
-            </li>
-            <li class="header__item">
-                <p class="header__text">About Us</p>
-            </li>
-            <li class="header__item">
-                <p class="header__text">Catalog</p>
-            </li>
-            <li class="header__item">
-                <p class="header__text">Sale</p>
-            </li>
-            <li class="header__item">
-                <p class="header__text">Reviews</p>
-            </li>
-            <li class="header__item">
-                <p class="header__text">Contact Us</p>
-            </li>
-        </ul>
-        <ul class="header__icons">
-            <li class="header__icon">
-                <svg class="header__svg">
-                    <use href="/watchcharm-project/assets/icons-43979400.svg#icon-youtube-svg"></use>
-                </svg>
-            </li>
-            <li class="header__icon">
-                <svg class="header__svg">
-                    <use href="/watchcharm-project/assets/icons-43979400.svg#icon-instagram-svg"></use>
-                </svg>
-            </li>
-            <li class="header__icon">
-                <svg class="header__svg">
-                    <use href="/watchcharm-project/assets/icons-43979400.svg#icon-facebook-svg"></use>
-                </svg>
-            </li>
-        </ul>
-        <button class="burger-btn" type="button" data-modal-open>
-            <svg class="burger">
-                <use href="/watchcharm-project/assets/icons-43979400.svg#icon-burger"></use>
-            </svg>
-        </button>
-    </div>
+  <div class="container header-container">
+    <h1 class="header__title">watchcharm</h1>
+    <ul class="header__list">
+      <li class="header__item">
+        <p class="header__text">Home</p>
+      </li>
+      <li class="header__item">
+        <p class="header__text">About Us</p>
+      </li>
+      <li class="header__item">
+        <p class="header__text">Catalog</p>
+      </li>
+      <li class="header__item">
+        <p class="header__text">Sale</p>
+      </li>
+      <li class="header__item">
+        <p class="header__text">Reviews</p>
+      </li>
+      <li class="header__item">
+        <p class="header__text">Contact Us</p>
+      </li>
+    </ul>
+    <ul class="header__icons">
+      <li class="header__icon">
+        <svg class="header__svg">
+          <use href="/watchcharm-project/assets/icons-43979400.svg#icon-youtube-svg"></use>
+        </svg>
+      </li>
+      <li class="header__icon">
+        <svg class="header__svg">
+          <use href="/watchcharm-project/assets/icons-43979400.svg#icon-instagram-svg"></use>
+        </svg>
+      </li>
+      <li class="header__icon">
+        <svg class="header__svg">
+          <use href="/watchcharm-project/assets/icons-43979400.svg#icon-facebook-svg"></use>
+        </svg>
+      </li>
+    </ul>
+    <button class="burger-btn" type="button" data-menu-open>
+      <svg class="burger">
+        <use href="/watchcharm-project/assets/icons-43979400.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
 </header>
+
     <section class="hero">
   <div class="container hero-container">
     <div class="hero__wrapper1">
@@ -143,17 +144,11 @@
     <picture>
       <source
         media="(min-width: 1174px)"
-        srcset="
-          ./img/desktop/hero-watch-desktop@1x.webp  1x,
-          ../img/desktop/hero-watch-desktop@2x.webp 2x
-        "
+        srcset="/watchcharm-project/assets/hero-watch-desktop@1x-b4d226cc.webp 1x, /watchcharm-project/assets/hero-watch-desktop@2x-2d4d1f67.webp 2x"
       />
       <source
         media="(min-width: 720px)"
-        srcset="
-          ./img/tablet/hero-watch-tablet@1x.webp  1x,
-          ../img/tablet/hero-watch-tablet@2x.webp 2x
-        "
+        srcset="/watchcharm-project/assets/hero-watch-tablet@1x-8cbcc783.webp 1x, /watchcharm-project/assets/hero-watch-tablet@2x-7d4ba612.webp 2x"
       />
       <source
         media="(min-width: 355px)"
@@ -631,54 +626,53 @@
         </div>
     </div>
 </footer>
-    <div class="backdrop">
-    <div class="mobile-menu is-hidden" data-modal>
-        <button class="mobile-close" data-modal-close>
-            <svg class="mobile-close-svg">
-                <use href="../icons.svg#icon-close"></use>
-            </svg>
-        </button>
+    <div class="mobile-menu is-hidden" data-menu>
+  <button class="mobile-close" data-menu-close>
+    <svg class="mobile-close-svg">
+      <use href="/watchcharm-project/assets/icons-43979400.svg#icon-close"></use>
+    </svg>
+  </button>
 
-        <ul class="mobile-menu-list">
-            <li class="mobile-menu-item">
-                <p class="mobile-menu-text">Home</p>
-            </li>
-            <li class="mobile-menu-item">
-                <p class="mobile-menu-text">About Us</p>
-            </li>
-            <li class="mobile-menu-item">
-                <p class="mobile-menu-text">Catalog</p>
-            </li>
-            <li class="mobile-menu-item">
-                <p class="mobile-menu-text">Sale</p>
-            </li>
-            <li class="mobile-menu-item">
-                <p class="mobile-menu-text">Reviews</p>
-            </li>
-            <li class="mobile-menu-item">
-                <p class="mobile-menu-text">Contact Us</p>
-            </li>
-        </ul>
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+      <p class="mobile-menu-text">Home</p>
+    </li>
+    <li class="mobile-menu-item">
+      <p class="mobile-menu-text">About Us</p>
+    </li>
+    <li class="mobile-menu-item">
+      <p class="mobile-menu-text">Catalog</p>
+    </li>
+    <li class="mobile-menu-item">
+      <p class="mobile-menu-text">Sale</p>
+    </li>
+    <li class="mobile-menu-item">
+      <p class="mobile-menu-text">Reviews</p>
+    </li>
+    <li class="mobile-menu-item">
+      <p class="mobile-menu-text">Contact Us</p>
+    </li>
+  </ul>
 
-        <ul class="mobile-menu-networks">
-            <li class="mobile-menu-network">
-                <svg class="mobile-svg">
-                    <use href="../icons.svg#icon-facebook-svg"></use>
-                </svg>
-            </li>
-            <li class="mobile-menu-network">
-                <svg class="mobile-svg">
-                    <use href="../icons.svg#icon-instagram-svg"></use>
-                </svg>
-            </li>
-            <li class="mobile-menu-network">
-                <svg class="mobile-svg">
-                    <use href="../icons.svg#icon-youtube-svg"></use>
-                </svg>
-            </li>
-        </ul>
-    </div>
+  <ul class="mobile-menu-networks">
+    <li class="mobile-menu-network">
+      <svg class="mobile-svg">
+        <use href="/watchcharm-project/assets/icons-43979400.svg#icon-facebook-svg"></use>
+      </svg>
+    </li>
+    <li class="mobile-menu-network">
+      <svg class="mobile-svg">
+        <use href="/watchcharm-project/assets/icons-43979400.svg#icon-instagram-svg"></use>
+      </svg>
+    </li>
+    <li class="mobile-menu-network">
+      <svg class="mobile-svg">
+        <use href="/watchcharm-project/assets/icons-43979400.svg#icon-youtube-svg"></use>
+      </svg>
+    </li>
+  </ul>
 </div>
+
 
      
 
