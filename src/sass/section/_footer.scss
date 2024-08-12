@@ -277,6 +277,7 @@ width: 18px;
 height: 18px;
 padding: 8px;
 
+
 @media screen and (min-width: 355px) {
     width: 18px;
     height: 18px;
@@ -295,6 +296,77 @@ padding: 8px;
     padding: 8px;
     fill: #FBFBFB;
 }
+    }
+
+    &__svg:hover {
+        animation-duration: 2s;
+        animation-name: svg-animation;
+
+        @keyframes svg-animation {
+            0% {
+                width: 18px;
+                height: 18px;  
+                fill: #FBFBFB;
+            }
+        
+            50% {
+                width: 25px;
+                height: 25px;
+                fill: #3350E9;
+            }
+        
+            100% {
+                width: 18px;
+                height: 18px;
+                fill: #FBFBFB;
+            }
+        }  
+        
+        @media screen and (min-width: 720px) {
+
+            @keyframes svg-animation {
+                0% {
+                    width: 20px;
+                    height: 20px; 
+                    fill: #FBFBFB;
+                }
+            
+                50% {
+                    width: 27px;
+                    height: 27px;
+                    fill: #3350E9;
+                }
+            
+                100% {
+                    width: 20px;
+                    height: 20px;
+                    fill: #FBFBFB;
+                }
+            }  
+        }
+        
+        @media screen and (min-width: 1174px) {
+
+            @keyframes svg-animation {
+                0% {
+                    width: 20px;
+                    height: 20px; 
+                    fill: #FBFBFB;
+                }
+            
+                50% {
+                    width: 27px;
+                    height: 27px;
+                    fill: #3350E9;
+                }
+            
+                100% {
+                    width: 20px;
+                    height: 20px;
+                    fill: #FBFBFB;
+                }
+            }
+        }
     }
 
     &__svg-center {
@@ -358,6 +430,7 @@ padding: 8px;
         font-style: normal;
         font-weight: 500;
         line-height: 16px; /* 133.333% */
+        transition: font-size, width, background-color 1s;
 
 
 @media screen and (min-width: 355px) {
@@ -389,6 +462,21 @@ padding: 8px;
     font-weight: 500;
     line-height: 18px; /* 128.571% */
 }
+    }
+
+    &__nav-text:hover {
+        display: flex;
+        border-radius: 16px;
+    border: 1px solid rgba(251, 251, 251, 0.20);
+    background-color: #3350E9;
+    color: #FBFBFB;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 5px;
+    width: max-content;
     }
 
 
