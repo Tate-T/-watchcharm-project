@@ -1,0 +1,21 @@
+.scroll-tops {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 50px;
+  right: 50px;
+  position: fixed;
+  background-color: $card-color;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: box-shadow 250ms linear, background-color 250ms linear;
+}
+
+.scroll-icon {
+  fill: $bacground-photo-color;
+  width: 40px;
+  height: 40px;
+  transition: fill 250ms linear;
+  cursor: pointer;
+}
