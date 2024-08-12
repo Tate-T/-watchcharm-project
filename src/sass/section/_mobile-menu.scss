@@ -1,118 +1,120 @@
 .mobile-menu {
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 160px;
-    padding: 20px 20px 40px 20px;
-    background-image: url(../img/mobile/mobile-back-mobile@1x.webp);
-    transform: translate(0, 0);
-    transition: transform 250ms ease-out;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 20px 40px 20px;
+  background-image: url(../img/mobile/mobile-back-mobile@1x.webp);
+  transform: translate(0, 0);
+  transition: transform 250ms ease-out;
 
-    @media screen and (min-width: 720px) {
-        background-image: url(../img/tablet/mobile-menu-clock-tablet@1x.webp);
-        padding: 26px 32px 50px;
-        width: 266px;
-    }
+  @media screen and (min-width: 720px) {
+    background-image: url(../img/tablet/mobile-menu-clock-tablet@1x.webp);
+    padding: 26px 32px 50px;
+    width: 266px;
+  }
 
-    @media screen and (min-width: 1174px) {
-        display: none;
-    }
-
+  @media screen and (min-width: 1174px) {
+    display: none;
+  }
 }
 
-.mobile-menu.is-hidden {
-    transform: translate(200px, 0);
-    pointer-events: none;
+.mobile-menu {
+  display: flex;
+  justify-content: end;
+  transform: translate(200px, 0);
+  pointer-events: none;
 
-    @media screen and (min-width: 720px) {
-        transform: translate(330px, 0);
-    }
+  @media screen and (min-width: 720px) {
+    transform: translate(330px, 0);
+  }
 }
 
 .mobile-menu-list {
-    display: flex;
-    flex-direction: column;
-    margin-top: 186px;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 186px;
+  gap: 24px;
 
-    @media screen and (min-width: 720px) {
-        margin-top: 244px;
-        gap: 32px;
-    }
+  @media screen and (min-width: 720px) {
+    margin-top: 244px;
+    gap: 32px;
+  }
 }
 
 .mobile-menu-networks {
-    display: flex;
-    justify-content: center;
-    margin-top: 263px;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 263px;
+  gap: 10px;
 
-    @media screen and (min-width: 720px) {
-        margin-top: 350px;
-    }
+  @media screen and (min-width: 720px) {
+    margin-top: 350px;
+  }
 }
 
 .mobile-menu-network {
-    width: 18px;
-    height: 18px;
-    border-radius: 10px;
-    border: 1px solid rgba(251, 251, 251, 0.10);
-    padding: 8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  padding: 8px;
 
-    @media screen and (min-width: 720px) {
-        height: 20px;
-    }
-
+  @media screen and (min-width: 720px) {
+    height: 20px;
+  }
 }
 
 .mobile-close {
-    display: flex;
-    justify-content: end;
-    width: 34px;
-    height: 34px;
-    background: none;
-    cursor: pointer;
-    margin-left: 136px;
+  display: flex;
+  justify-content: end;
+  background: none;
+  cursor: pointer;
+  margin-left: 136px;
 
-    @media screen and (min-width: 720px) {
-        margin-left: 248px;
-        width: 40px;
-        height: 40px;
-    }
+  @media screen and (min-width: 720px) {
+    margin-left: 248px;
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .mobile-close-svg {
-    width: 34px;
-    height: 34px;
-    stroke: white;
+  width: 34px;
+  height: 34px;
+  stroke: white;
 
-    @media screen and (min-width: 720px) {
-        width: 40px;
-        height: 40px;
-    }
+  @media screen and (min-width: 720px) {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .mobile-menu-text {
-    color: $accent-color;
-    text-align: center;
-    font-family: Gilroy;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
+  color: $accent-color;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
 }
 
 .mobile-svg {
-    fill: $accent-color;
-    width: 18px;
-    height: 18px;
+  fill: $accent-color;
+  width: 18px;
+  height: 18px;
 
-    @media screen and (min-width: 720px) {
-        width: 20px;
-        height: 20px;
-    }
+  @media screen and (min-width: 720px) {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
 }

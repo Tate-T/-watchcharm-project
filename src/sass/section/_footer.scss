@@ -1,14 +1,19 @@
 .footer {
-
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-bottom: 28px;
-    padding-right: 40px;
-    margin-bottom: 32px;
+    padding: 40px 28px 28px 28px;
     border-radius: 30px;
     background: #0C0C0C;
 
+    // @media screen and (min-width: 4px) {
+    //     padding: 40px 28px 28px 28px;
+    // }    
 
+    @media screen and (min-width: 720px) {
+        padding: 40px 40px 28px 40px;
+    }
+
+    @media screen and (min-width: 1174px) {
+        padding: 40px 40px 28px 40px;
+    }
     
     
 
@@ -192,8 +197,8 @@ margin-bottom: 20px;
         letter-spacing: -0.4px;
         width: 279px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        // margin-left: auto;
+        // margin-right: auto;
         margin-top: 40px;
 
         @media screen and (min-width: 355px) {
@@ -209,8 +214,8 @@ margin-bottom: 20px;
             letter-spacing: -0.4px;
             width: 279px;
             display: block;
-            margin-left: auto;
-            margin-right: auto;
+            // margin-left: auto;
+            // margin-right: auto;
             margin-top: 40px;
         }    
         
@@ -312,7 +317,6 @@ padding: 8px;
     }
 
     &__nav {
-        display: flex;
         display: flex;
         width: 147px;
         gap: 8px 16px;

@@ -11,7 +11,7 @@
         line-height: 32px;
         /* 100% */
         letter-spacing: -0.64px;
-        padding-left: 24px;
+        padding-left: 20px;
         padding-bottom: 20px;
 
         @media screen and (min-width: 720px) {
@@ -24,13 +24,13 @@
             line-height: 44px;
             /* 91.667% */
             letter-spacing: -0.96px;
-            padding-left: 32px;
+            
             padding-bottom: 40px;
         }
 
         @media screen and (min-width: 1174px) {
 
-            padding-left: 65px;
+           
 
 
         }
@@ -47,6 +47,7 @@
         /* 125% */
         letter-spacing: -0.32px;
         margin-top: 24px;
+        margin-bottom: 8px;
 
         @media screen and (min-width: 720px) {
             color: #0C0C0C;
@@ -155,6 +156,8 @@
 
 
         .reviews-imag {
+            margin-left: auto;
+            margin-right: auto;
             width: 56px;
             height: 56px;
             border-radius: 56px;
