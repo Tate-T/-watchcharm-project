@@ -6,16 +6,36 @@
   right: 50px;
   position: fixed;
   background-color: $card-color;
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   transition: box-shadow 250ms linear, background-color 250ms linear;
+
+  @media screen and (min-width: 720px) {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media screen and (min-width: 1174px) {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .scroll-icon {
   fill: $bacground-photo-color;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   transition: fill 250ms linear;
   cursor: pointer;
+
+  @media screen and (min-width: 720px) {
+    width: 30px;
+    height: 30px;
+  }
+
+  @media screen and (min-width: 1174px) {
+    width: 40px;
+    height: 40px;
+  }
 }

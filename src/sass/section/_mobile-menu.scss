@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   padding: 20px 20px 40px 20px;
@@ -30,7 +30,7 @@
   pointer-events: none;
 
   @media screen and (min-width: 720px) {
-    transform: translate(330px, 0);
+    // transform: translate(330px, 0);
   }
 }
 
