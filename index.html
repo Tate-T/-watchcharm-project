@@ -12,6 +12,7 @@
     />
     
     
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Collection watches</title>
     <script type="module" crossorigin src="/watchcharm-project/commonHelpers.js"></script>
     <link rel="stylesheet" href="/watchcharm-project/assets/index-34b80e5c.css">
@@ -195,7 +196,11 @@
         </div>
     </div>
 </section>
-    <section id="scroll-catalog" class="catalog">
+    
+<section class="catalog" id="catalog" data-aos="zoom-in-up">
+
+
+
   <div class="container">
     <h3 class="log">Catalog</h3>
     <ul class="cards">
@@ -281,18 +286,23 @@
      
     </ul>
     <button class="show" type="button">Show more</button>
+   
   </div>
+
 </section>
 
-    <section class="advert">
+    <section class="advert" id="advertismant" data-aos="fade-up">
+    
+
     <div class="container">
         <div class="pos">
 <h2 class="text-wite"> Choose<span class="text-gray">your story</span>, making every moment unique. Time is your style, and we reveal it. </h2>
-<button class="contact2">Contact Us</button>
+<button class="contact2"  >Contact Us</button>
 
 </div>
     </div>
 </section>
+
     <section id="scroll-sale" class="sale">
   <div class="container">
     <h2 class="sale-tittle">Sale</h2>
@@ -677,6 +687,10 @@
 
 
      
-
+     
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
