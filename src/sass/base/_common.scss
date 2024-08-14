@@ -4,17 +4,16 @@
   margin-left: auto;
   margin-right: auto;
   outline: red solid;
-  width: 355px;
-
+  max-width: 355px;
 
   @media screen and (min-width: 720px) {
-    width: 720px;
+    max-width: 720px;
     padding-left: 8px;
     padding-right: 8px;
   }
 
   @media screen and (min-width: 1174px) {
-    width: 1174px;
+    max-width: 1174px;
     padding-left: 12px;
     padding-right: 12px;
   }
