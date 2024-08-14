@@ -24,6 +24,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 20px; /* 100% */
 letter-spacing: -0.4px;
+margin-bottom: 8px;
 
 }
 
@@ -77,11 +78,11 @@ padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 23px;
+justify-content: center;
+  
+   
 
-   padding-bottom: 100px;
-   margin-left: 50px;
-
-   padding-bottom: 50px;
+   
 
    
 
@@ -119,7 +120,7 @@ display: none;
 .cards{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px;
+    
 
    
 
@@ -183,7 +184,7 @@ flex-shrink: 0;
 
    .cards{
    
-    margin-left: 20px;
+  
 
 
 }
