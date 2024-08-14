@@ -16,14 +16,17 @@
         }
     }
 
-    &__item::after {
-        opacity: 0;
+    &__item {
+        cursor: pointer;
+        position: relative;
+    }
+
+    &__item:hover {
         transition: opacity 250ms linear;
     }
 
-    &__item:hover::after {
-        transition: opacity 250ms linear;
-        opacity: 1;
+    &__item::after {
+        opacity: 0;
         margin-left: 40%;
         display: flex;
         flex-direction: column;
@@ -33,10 +36,11 @@
         width: 8px;
         height: 8px;
         background-color: #3350E9;
+        transition: opacity 250ms linear;
     }
 
-    &__item {
-        position: relative;
+    &__item:hover::after {
+        opacity: 1;
     }
 
     &__icons {
