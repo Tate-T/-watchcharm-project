@@ -2,13 +2,13 @@
     padding: 26px 0;
 
     &-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     &__list {
-            display: none;
+        display: none;
 
         @media screen and (min-width:1174px) {
             display: flex;
@@ -16,8 +16,31 @@
         }
     }
 
+    &__item::after {
+        opacity: 0;
+        transition: opacity 250ms linear;
+    }
+
+    &__item:hover::after {
+        transition: opacity 250ms linear;
+        opacity: 1;
+        margin-left: 40%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background-color: #3350E9;
+    }
+
+    &__item {
+        position: relative;
+    }
+
     &__icons {
-            display: none;
+        display: none;
 
         @media screen and (min-width:1174px) {
             display: flex;
@@ -46,6 +69,7 @@
 
     &__text {
         @media screen and (min-width:1174px) {
+            position: relative;
             color: $tittle-color;
             text-align: center;
             font-family: Gilroy;
@@ -69,6 +93,10 @@
 .burger-btn {
     background: none;
     height: 40px;
+
+    @media screen and (min-width:1174px) {
+        display: none;
+    }
 }
 
 .burger {
@@ -76,8 +104,4 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
-
-    @media screen and (min-width:1174px) {
-        display: none;
-    }
 }
