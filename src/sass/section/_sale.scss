@@ -52,16 +52,10 @@
 
 .sale-list-card {
   border-radius: 30px;
-  width: 300px;
   background: $card-color;
 
   @media screen and (min-width: 720px) {
     border-radius: 50px;
-    width: 590px;
-  }
-
-  @media screen and (min-width: 1174px) {
-    width: 410px;
   }
 }
 
@@ -154,7 +148,6 @@
   font-weight: 600;
   line-height: 28px;
   letter-spacing: -0.48px;
-  width: 279px;
   margin-bottom: 10px;
 
   @media screen and (min-width: 720px) {
@@ -224,7 +217,6 @@
   line-height: 18px;
   letter-spacing: -0.28px;
   margin-bottom: 40px;
-  width: 279px;
 
   @media screen and (min-width: 720px) {
     font-size: 16px;
