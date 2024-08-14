@@ -9,7 +9,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  transition: box-shadow 250ms linear, background-color 250ms linear;
+  transition: 1s;
 
   @media screen and (min-width: 720px) {
     width: 60px;
@@ -20,6 +20,15 @@
     width: 100px;
     height: 100px;
   }
+}
+
+.scroll-tops:hover {
+  background: radial-gradient(
+    circle,
+    rgba(112, 51, 233, 1) 53%,
+    rgba(51, 80, 233, 1) 54%
+  );
+  box-shadow: -8px -11px 35px -7px rgba(127, 23, 179, 1);
 }
 
 .scroll-icon {
