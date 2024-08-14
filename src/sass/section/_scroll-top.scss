@@ -1,0 +1,50 @@
+.scroll-tops {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 50px;
+  right: 50px;
+  position: fixed;
+  background-color: $card-color;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 1s;
+
+  @media screen and (min-width: 720px) {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media screen and (min-width: 1174px) {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.scroll-tops:hover {
+  background: radial-gradient(
+    circle,
+    rgba(112, 51, 233, 1) 53%,
+    rgba(51, 80, 233, 1) 54%
+  );
+  box-shadow: -8px -11px 35px -7px rgba(127, 23, 179, 1);
+}
+
+.scroll-icon {
+  fill: $bacground-photo-color;
+  width: 20px;
+  height: 20px;
+  transition: fill 250ms linear;
+  cursor: pointer;
+
+  @media screen and (min-width: 720px) {
+    width: 30px;
+    height: 30px;
+  }
+
+  @media screen and (min-width: 1174px) {
+    width: 40px;
+    height: 40px;
+  }
+}
