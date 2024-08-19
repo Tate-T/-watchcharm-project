@@ -46,7 +46,6 @@
   }
 
   &__button {
-    width: max-content;
     height: min-content;
     border-radius: 16px;
     border: 1px solid rgba(251, 251, 251, 0.2);
@@ -66,7 +65,6 @@
 
     @media screen and (min-width: 355px) {
       width: max-content;
-      height: min-content;
       border-radius: 16px;
       border: 1px solid rgba(251, 251, 251, 0.2);
       background-color: transparent;
@@ -85,8 +83,8 @@
     }
 
     @media screen and (min-width: 720px) {
-      width: max-content;
-      height: min-content;
+      min-width: 130px;
+      max-width: 160px;
       border-radius: 16px;
       border: 1px solid rgba(251, 251, 251, 0.2);
       color: #fbfbfb;
@@ -116,8 +114,8 @@
       line-height: 18px;
       text-transform: uppercase;
       padding: 15px;
-      width: max-content;
-      height: min-content;
+      min-width: 130px;
+      max-width: 160px;
       margin-top: 0px;
       margin-bottom: 0px;
       margin-left: auto;
@@ -402,8 +400,11 @@
     transition: background-color 2s;
     height: 15px;
     padding: 5px;
-    display: block;
+
     align-items: center;
+    display: flex;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
 
     @media screen and (min-width: 355px) {
       color: #fbfbfb;
@@ -437,9 +438,7 @@
   }
 
   &__nav-text:hover {
-    display: flex;
-    border-radius: 16px;
-    border: 1px solid rgba(251, 251, 251, 0.2);
+
     background-color: #3350e9;
 
   }
