@@ -1,4 +1,6 @@
 .header {
+
+    border-bottom: 1px solid  #ECECEC;
     padding: 26px 0;
 
     &-container {
@@ -58,6 +60,11 @@
         }
     }
 
+&__svg:hover{
+    fill: rgb(62, 62, 201);
+color:rgb(62, 62, 201) ;
+}
+
     &__title {
         color: $tittle-color;
         font-family: Gilroy;
@@ -108,4 +115,9 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+
+.header__icon:hover{
+fill: rgb(62, 62, 201);
+color:rgb(62, 62, 201) ;
 }
