@@ -160,6 +160,7 @@
 
 
     &__subbutton {
+       
         color: #FBFBFB;
         text-align: center;
         font-family: Gilroy;
@@ -171,10 +172,12 @@
         border-radius: 16px;
         background: #3350E9;
         width: 160px;
-        height: 48px;
-        flex-shrink: 0;
 
-        margin-top: 40px;
+        padding: 10px;
+        flex-shrink: 0;
+        display: block;
+
+
 
         @media screen and (min-width: 720px) {
             color: #FBFBFB;

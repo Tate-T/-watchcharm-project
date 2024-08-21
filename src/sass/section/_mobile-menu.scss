@@ -69,7 +69,7 @@
   position: absolute;
   width: 8px;
   height: 8px;
-  background-color: #3350E9;
+  background-color: #3350e9;
   transition: opacity 250ms linear;
 }
 
@@ -147,6 +147,11 @@
   @media screen and (min-width: 1174px) {
     display: none;
   }
+}
+
+.mobile-svg:hover{
+  fill: rgb(62, 62, 201);
+  color:rgb(62, 62, 201) ;
 }
 
 .is-hidden {
