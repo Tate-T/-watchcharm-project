@@ -24,16 +24,11 @@
             line-height: 44px;
             /* 91.667% */
             letter-spacing: -0.96px;
-            
+
             padding-bottom: 40px;
         }
 
-        @media screen and (min-width: 1174px) {
-
-           
-
-
-        }
+        @media screen and (min-width: 1174px) {}
     }
 
     .reviews-subitem {
@@ -172,6 +167,7 @@
 }
 
 .reviews-card.people1 {
+    height: 247px;
     display: block;
 
     @media screen and (min-width: 720px) {}
@@ -182,7 +178,7 @@
 }
 
 .reviews-card.people2 {
-    display: none;
+    height: 247px;
 
     @media screen and (min-width: 720px) {
         display: block;
@@ -194,7 +190,8 @@
 }
 
 .reviews-card.people3 {
-    display: none;
+
+    height: 247px;
 
     @media screen and (min-width: 720px) {}
 
